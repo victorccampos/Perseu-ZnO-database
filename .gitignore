@@ -3,3 +3,6 @@
 *.dat
 *.tmp
 *.png
+*.xml
+*.err
+nohup.out
