@@ -1,0 +1,277 @@
+
+     Program PWSCF v.7.2 starts on  4Jul2025 at  6: 9:35 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    16 processors
+
+     MPI processes distributed on     1 nodes
+     80660 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from ZnO-233.in
+Warning: card &CELL ignored
+Warning: card / ignored
+Warning: card &FCP ignored
+Warning: card / ignored
+Warning: card &RISM ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Zn.upf: wavefunction(s)  3D renormalized
+     Found identity + (  0.0000  0.0000  0.3333) symmetry
+     This is a supercell, fractional translations are disabled
+
+     K-points division:     npool     =       2
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     custom distributed-memory algorithm (size of sub-group:  2*  2 procs)
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         788     394    111               100238    35450    5305
+     Max         792     395    112               100240    35453    5310
+     Sum        6311    3155    893               801909   283609   42463
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      12.3577  a.u.
+     unit-cell volume          =    5936.4509 (a.u.)^3
+     number of atoms/cell      =           72
+     number of atomic types    =            2
+     number of electrons       =       648.00
+     number of Kohn-Sham states=          324
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     400.0000  Ry
+     scf convergence threshold =      1.0E-08
+     mixing beta               =       0.3000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+
+     celldm(1)=  12.357708  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.750000   1.299038   0.000000 )  
+               a(3) = (   0.000000   0.000000   2.421538 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350 -0.000000 )  
+               b(2) = (  0.000000  0.769800  0.000000 )  
+               b(3) = (  0.000000 -0.000000  0.412961 )  
+
+
+     PseudoPot. # 1 for Zn read from file:
+     ../pseudos/Zn.upf
+     MD5 check sum: 7f56cabf9682ed8c977c2f7d0c5985c5
+     Pseudo is Ultrasoft + core correction, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Using radial grid of 1201 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for O  read from file:
+     ../pseudos/O.upf
+     MD5 check sum: 91400c9766925bcf19f520983a725ff0
+     Pseudo is Ultrasoft + core correction, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3MaX
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Zn            12.00    65.38000     Zn( 1.00)
+        O              6.00    15.99900     O ( 1.00)
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Zn  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           O   tau(   2) = (   0.0000000   0.2886751   0.0985546  )
+         3           Zn  tau(   3) = (   0.0000000   0.2886751   0.4035896  )
+         4           O   tau(   4) = (   0.0000000   0.0000000   0.5021442  )
+         5           Zn  tau(   5) = (   0.0000000   0.0000000   0.8071792  )
+         6           O   tau(   6) = (   0.0000000   0.2886751   0.9057338  )
+         7           Zn  tau(   7) = (   0.0000000   0.2886751   1.2107688  )
+         8           O   tau(   8) = (   0.0000000   0.0000000   1.3093234  )
+         9           Zn  tau(   9) = (   0.0000000   0.0000000   1.6143584  )
+        10           O   tau(  10) = (   0.0000000   0.2886751   1.7129130  )
+        11           Zn  tau(  11) = (   0.0000000   0.2886751   2.0179479  )
+        12           O   tau(  12) = (   0.0000000   0.0000000   2.1165025  )
+        13           Zn  tau(  13) = (  -0.2500000   0.4330127   0.0000000  )
+        14           O   tau(  14) = (  -0.2500000   0.7216878   0.0985546  )
+        15           Zn  tau(  15) = (  -0.2500000   0.7216878   0.4035896  )
+        16           O   tau(  16) = (  -0.2500000   0.4330127   0.5021442  )
+        17           Zn  tau(  17) = (  -0.2500000   0.4330127   0.8071792  )
+        18           O   tau(  18) = (  -0.2500000   0.7216878   0.9057338  )
+        19           Zn  tau(  19) = (  -0.2500000   0.7216878   1.2107688  )
+        20           O   tau(  20) = (  -0.2500000   0.4330127   1.3093234  )
+        21           Zn  tau(  21) = (  -0.2500000   0.4330127   1.6143584  )
+        22           O   tau(  22) = (  -0.2500000   0.7216878   1.7129130  )
+        23           Zn  tau(  23) = (  -0.2500000   0.7216878   2.0179479  )
+        24           O   tau(  24) = (  -0.2500000   0.4330127   2.1165025  )
+        25           Zn  tau(  25) = (  -0.5000000   0.8660254   0.0000000  )
+        26           O   tau(  26) = (  -0.5000000   1.1547005   0.0985546  )
+        27           Zn  tau(  27) = (  -0.5000000   1.1547005   0.4035896  )
+        28           O   tau(  28) = (  -0.5000000   0.8660254   0.5021442  )
+        29           Zn  tau(  29) = (  -0.5000000   0.8660254   0.8071792  )
+        30           O   tau(  30) = (  -0.5000000   1.1547005   0.9057338  )
+        31           Zn  tau(  31) = (  -0.5000000   1.1547005   1.2107688  )
+        32           O   tau(  32) = (  -0.5000000   0.8660254   1.3093234  )
+        33           Zn  tau(  33) = (  -0.5000000   0.8660254   1.6143584  )
+        34           O   tau(  34) = (  -0.5000000   1.1547005   1.7129130  )
+        35           Zn  tau(  35) = (  -0.5000000   1.1547005   2.0179479  )
+        36           O   tau(  36) = (  -0.5000000   0.8660254   2.1165025  )
+        37           Zn  tau(  37) = (   0.5000000   0.0000000   0.0000000  )
+        38           O   tau(  38) = (   0.5000000   0.2886751   0.0985546  )
+        39           Zn  tau(  39) = (   0.5000000   0.2886751   0.4035896  )
+        40           O   tau(  40) = (   0.5000000   0.0000000   0.5021442  )
+        41           Zn  tau(  41) = (   0.5000000   0.0000000   0.8071792  )
+        42           O   tau(  42) = (   0.5000000   0.2886751   0.9057338  )
+        43           Zn  tau(  43) = (   0.5000000   0.2886751   1.2107688  )
+        44           O   tau(  44) = (   0.5000000   0.0000000   1.3093234  )
+        45           Zn  tau(  45) = (   0.5000000   0.0000000   1.6143584  )
+        46           O   tau(  46) = (   0.5000000   0.2886751   1.7129130  )
+        47           Zn  tau(  47) = (   0.5000000   0.2886751   2.0179479  )
+        48           O   tau(  48) = (   0.5000000   0.0000000   2.1165025  )
+        49           Zn  tau(  49) = (   0.2500000   0.4330127   0.0000000  )
+        50           O   tau(  50) = (   0.2500000   0.7216878   0.0985546  )
+        51           Zn  tau(  51) = (   0.2500000   0.7216878   0.4035896  )
+        52           O   tau(  52) = (   0.2500000   0.4330127   0.5021442  )
+        53           Zn  tau(  53) = (   0.2500000   0.4330127   0.8071792  )
+        54           O   tau(  54) = (   0.2500000   0.7216878   0.9057338  )
+        55           Zn  tau(  55) = (   0.2500000   0.7216878   1.2107688  )
+        56           O   tau(  56) = (   0.2500000   0.4330127   1.3093234  )
+        57           Zn  tau(  57) = (   0.2500000   0.4330127   1.6143584  )
+        58           O   tau(  58) = (   0.2500000   0.7216878   1.7129130  )
+        59           Zn  tau(  59) = (   0.2500000   0.7216878   2.0179479  )
+        60           O   tau(  60) = (   0.2500000   0.4330127   2.1165025  )
+        61           Zn  tau(  61) = (   0.0000000   0.8660254   0.0000000  )
+        62           O   tau(  62) = (   0.0000000   1.1547005   0.0985546  )
+        63           Zn  tau(  63) = (   0.0000000   1.1547005   0.4035896  )
+        64           O   tau(  64) = (   0.0000000   0.8660254   0.5021442  )
+        65           Zn  tau(  65) = (   0.0000000   0.8660254   0.8071792  )
+        66           O   tau(  66) = (   0.0000000   1.1547005   0.9057338  )
+        67           Zn  tau(  67) = (   0.0000000   1.1547005   1.2107688  )
+        68           O   tau(  68) = (   0.0000000   0.8660254   1.3093234  )
+        69           Zn  tau(  69) = (   0.0000000   0.8660254   1.6143584  )
+        70           O   tau(  70) = (   0.0000000   1.1547005   1.7129130  )
+        71           Zn  tau(  71) = (   0.0000000   1.1547005   2.0179479  )
+        72           O   tau(  72) = (   0.0000000   0.8660254   2.1165025  )
+
+     number of k points=   112
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:   801909 G-vectors     FFT dimensions: (  80, 120, 192)
+
+     Smooth grid:   283609 G-vectors     FFT dimensions: (  60,  90, 135)
+
+     Estimated max dynamical RAM per process >       1.56 GB
+
+     Estimated total dynamical RAM >      24.80 GB
+
+     Check: negative core charge=   -0.000002
+
+     Initial potential from superposition of free atoms
+
+     starting charge     647.8659, renormalised to     648.0000
+     Starting wfcs are  468 randomized atomic wfcs
+
+     total cpu time spent up to now is      460.6 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is     1378.6 secs
+
+     total energy              =   -6506.64006626 Ry
+     estimated scf accuracy    <      12.40312904 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.91E-03,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is     2564.6 secs
+
+     total energy              =   -6508.46153368 Ry
+     estimated scf accuracy    <       1.55748008 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  2.40E-04,  avg # of iterations =  8.6
+
+     total cpu time spent up to now is     4859.7 secs
+
+     total energy              =   -6509.05222567 Ry
+     estimated scf accuracy    <       0.92992912 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.44E-04,  avg # of iterations = 10.0
+
+     total cpu time spent up to now is     7686.4 secs
+
+     total energy              =   -6509.52520954 Ry
+     estimated scf accuracy    <       3.35216205 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     ethr =  1.44E-04,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is     8637.1 secs
+
+     total energy              =   -6508.28646932 Ry
+     estimated scf accuracy    <       1.77500866 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     ethr =  1.44E-04,  avg # of iterations = 14.3
+
+     total cpu time spent up to now is    12253.4 secs
+
+     total energy              =   -6506.79772376 Ry
+     estimated scf accuracy    <      23.98596323 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta= 0.30
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
