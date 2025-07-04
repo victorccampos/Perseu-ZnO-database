@@ -14,18 +14,18 @@ Esses dados serão utilizados para **treinamento e validação de potenciais de 
 
 ## 📁 Estrutura do Repositório
 __ZnO_database/__
-├── `ZnO_system_preparation/` # Pré-processamento do sistema (relaxações, distorções, etc.)
-├── `data/`                   # Inputs e outputs principais das simulações DFT
-├── `SCF-RND025-COMPARE/`     # Teste inputs com deslocamentos aleatórios com $ \text{ibrav=4}$ e $ \text{ibrav=6}$
-├── `scripts/`                # Scripts Python para geração, execução e ETL.
-├── `templates_QE/`           # Templates de input para Quantum ESPRESSO
-├── `pseudos/`                # Pseudopotenciais utilizados (.UPF)
-├── `supercells_phonopy/`     # Supercélulas geradas com o Phonopy
-├── `supercells-ASE/`         # Supercélulas geradas com o ASE
-├── `post-processing/`        # Scripts e ferramentas de pós-processamento
-├── `Notebooks/`              # Notebooks de análise e visualização dos resultados
-├── `markdown_notes/`         # Documentações auxiliares e anotações em Markdown
-└── __README.md__ 
+├── `ZnO_system_preparation/` # Pré-processamento do sistema (relaxações, distorções, etc.)  
+├── `data/`                   # Inputs e outputs principais das simulações DFT  
+├── `SCF-RND025-COMPARE/`     # Teste inputs com deslocamentos aleatórios com $ \text{ibrav=4}$ e $ \text{ibrav=6}$  
+├── `scripts/`                # Scripts Python para geração, execução e ETL.  
+├── `templates_QE/`           # Templates de input para Quantum ESPRESSO  
+├── `pseudos/`                # Pseudopotenciais utilizados (.UPF)  
+├── `supercells_phonopy/`     # Supercélulas geradas com o Phonopy  
+├── `supercells-ASE/`         # Supercélulas geradas com o ASE  
+├── `post-processing/`        # Scripts e ferramentas de pós-processamento  
+├── `Notebooks/`              # Notebooks de análise e visualização dos resultados  
+├── `markdown_notes/`         # Documentações auxiliares e anotações em Markdown  
+└── __README.md__   
 
 ---
 
