@@ -13,7 +13,7 @@ Esses dados serão utilizados para **treinamento e validação de potenciais de 
 ---
 
 ## 📁 Estrutura do Repositório
-__ZnO_database/__
+__ZnO_database/__  
 ├── `ZnO_system_preparation/` # Pré-processamento do sistema (relaxações, distorções, etc.)  
 ├── `data/`                   # Inputs e outputs principais das simulações DFT  
 ├── `SCF-RND025-COMPARE/`     # Teste inputs com deslocamentos aleatórios com $ \text{ibrav=4}$ e $ \text{ibrav=6}$  
