@@ -1,6 +1,6 @@
 from pathlib import Path
 import subprocess
-import argparse           
+import argparse
 
 
 # ================================= PARSER ==================================== #
@@ -28,7 +28,6 @@ output_dir.mkdir(exist_ok=True)     # Cria se não existir
 input_files = sorted(
     [file for file in input_dir.iterdir()
      if file.is_file() 
-     and file.name.startswith("scf-") 
      and file.name.endswith(".in")]
 ) 
 
@@ -47,7 +46,7 @@ for n, input_path in enumerate(input_files):
         try:
             subprocess.run(
                 # Executa o comando mpirun
-                ["mpirun", "-np", "8", "../bin/pw.x", "-in", str(input_path)],
+                ["mpirun", "-np", "8", "pw.x", "-in", str(input_path)],
                 check=True,
                 stdout=f_out ,
                 stderr=subprocess.STDOUT

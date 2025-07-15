@@ -42,7 +42,7 @@ def parse_arguments() -> argparse.Namespace:
         "-np",
         "--num-processes",
         type=int,
-        default=8,
+        default=16,
         help="Number of MPI processes to use for each QE run."
     )
     parser.add_argument(

@@ -38,7 +38,7 @@ output_dir.mkdir(exist_ok=True)
 # Arquivos de input
 input_files = sorted([
     file for file in input_dir.iterdir()
-    if file.is_file() and file.name.startswith("scf-") and file.name.endswith(".in")
+    if file.is_file() and file.name.endswith(".in")
 ])
 
 
@@ -48,6 +48,10 @@ MAX_WORKERS = TOTAL_CPUS // CPUS_PER_JOB # default 8
 
 
 # ============================ FUNÇÃO DE EXECUÇÃO ========================== #
+# TODO: MAP_OPTIONS="--map-by numa:pe=2"
+# TODO: # Número de pools NPOOL=2
+# TODO:
+#  mpirun -np $NP $MAP_OPTIONS ../../../bin/pw.x -in "$file_name" -npool $NPOOL > "$output_file" 2> "$error_file"
 
 def run_job(input_path):
     output_filename = input_path.stem + ".out"
@@ -58,7 +62,7 @@ def run_job(input_path):
     with output_path.open(mode='w') as f_out:
         try:
             subprocess.run(
-                ["mpirun", "-np", str(CPUS_PER_JOB), "../bin/pw.x", "-in", str(input_path)],
+                ["mpirun", "-np", str(CPUS_PER_JOB), "pw.x", "-in", str(input_path)],
                 check=True,
                 stdout=f_out,
                 stderr=subprocess.STDOUT

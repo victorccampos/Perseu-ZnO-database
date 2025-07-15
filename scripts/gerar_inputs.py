@@ -19,7 +19,7 @@ O             0.3333333333        0.6666666667        0.3796764146
 celldm1 = 6.178821408099141 # Bohr Radius
 celldm3 = 1.614358356153010 # Adimensional
 
-# -10% a 10% dos parâmetros de rede
+# -10% a 10% dos parâmetros de rede em passos de 2%
 percent_range = np.arange(start=-0.10, stop=0.12, step=0.02)  # [start, stop)
 
 a_range = celldm1 * (1 + percent_range)  # celldm1 * [0.9  0.92 0.94 0.96 0.98 1.   1.02 1.04 1.06 1.08 1.1 ]
