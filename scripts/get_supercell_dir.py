@@ -74,7 +74,7 @@ def make_pw_input_from_existing_in(input_file_path: str, a: float, covera: float
         atoms = supercell,
         input_data = HEADER_INPUT,
         pseudopotentials = PSEUDOS,
-        kpts = KPOINTS,
+        kpts = tuple(kpoints_supercell),
         koffset = (0,0,0),
         crystal_coordinates = True # TODO: check if this is needed
     )
@@ -96,6 +96,14 @@ c_values = CELLDM3 * (1 + percent_range)
 if  __name__ == "__main__":
     template_path = 'ZnO_template.in'  # Path to the template input file
     
-    make_pw_input(input_file_path=template_path,a=a, covera=c, cellsize=(1,3,1))
-    make_pw_input(input_file_path=template_path,a=a, covera=c, cellsize=(3,1,1))
-    make_pw_input(input_file_path=template_path,a=a, covera=c, cellsize=(1,1,3))
+
+    for nx in range(1, 4):  
+        for ny in range(1, 4):  
+            for nz in range(1, 4):
+                
+                make_pw_input_from_existing_in(input_file_path=template_path,
+                    a=CELLDM1_Angstroms,
+                    covera=CELLDM3,
+                    cellsize=(nx, ny, nz) )
+    
+    
