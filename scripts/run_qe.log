@@ -1,0 +1,972 @@
+2025-07-16 09:50:58,471 - INFO - Found 121 input files to process.
+2025-07-16 09:50:58,471 - INFO - Executing job 1/121: ZnO-2.94-1.45-112.in
+2025-07-16 09:50:58,472 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.45-112.out
+2025-07-16 09:50:58,472 - INFO - Executing QE job: ZnO-2.94-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.45-112.out)
+2025-07-16 09:51:49,497 - INFO - Successfully completed: ZnO-2.94-1.45-112.in
+2025-07-16 09:51:49,497 - INFO - Executing job 2/121: ZnO-2.94-1.49-112.in
+2025-07-16 09:51:49,497 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.49-112.out
+2025-07-16 09:51:49,497 - INFO - Executing QE job: ZnO-2.94-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.49-112.out)
+2025-07-16 09:52:40,471 - INFO - Successfully completed: ZnO-2.94-1.49-112.in
+2025-07-16 09:52:40,472 - INFO - Executing job 3/121: ZnO-2.94-1.52-112.in
+2025-07-16 09:52:40,472 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.52-112.out
+2025-07-16 09:52:40,472 - INFO - Executing QE job: ZnO-2.94-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.52-112.out)
+2025-07-16 09:53:31,648 - INFO - Successfully completed: ZnO-2.94-1.52-112.in
+2025-07-16 09:53:31,649 - INFO - Executing job 4/121: ZnO-2.94-1.55-112.in
+2025-07-16 09:53:31,649 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.55-112.out
+2025-07-16 09:53:31,649 - INFO - Executing QE job: ZnO-2.94-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.55-112.out)
+2025-07-16 09:54:22,821 - INFO - Successfully completed: ZnO-2.94-1.55-112.in
+2025-07-16 09:54:22,821 - INFO - Executing job 5/121: ZnO-2.94-1.58-112.in
+2025-07-16 09:54:22,822 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.58-112.out
+2025-07-16 09:54:22,822 - INFO - Executing QE job: ZnO-2.94-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.58-112.out)
+2025-07-16 09:55:13,976 - INFO - Successfully completed: ZnO-2.94-1.58-112.in
+2025-07-16 09:55:13,977 - INFO - Executing job 6/121: ZnO-2.94-1.61-112.in
+2025-07-16 09:55:13,977 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.61-112.out
+2025-07-16 09:55:13,977 - INFO - Executing QE job: ZnO-2.94-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.61-112.out)
+2025-07-16 09:56:04,985 - INFO - Successfully completed: ZnO-2.94-1.61-112.in
+2025-07-16 09:56:04,985 - INFO - Executing job 7/121: ZnO-2.94-1.65-112.in
+2025-07-16 09:56:04,985 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.65-112.out
+2025-07-16 09:56:04,986 - INFO - Executing QE job: ZnO-2.94-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.65-112.out)
+2025-07-16 09:56:55,995 - INFO - Successfully completed: ZnO-2.94-1.65-112.in
+2025-07-16 09:56:55,996 - INFO - Executing job 8/121: ZnO-2.94-1.68-112.in
+2025-07-16 09:56:55,996 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.68-112.out
+2025-07-16 09:56:55,996 - INFO - Executing QE job: ZnO-2.94-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.68-112.out)
+2025-07-16 09:57:47,116 - INFO - Successfully completed: ZnO-2.94-1.68-112.in
+2025-07-16 09:57:47,117 - INFO - Executing job 9/121: ZnO-2.94-1.71-112.in
+2025-07-16 09:57:47,117 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.71-112.out
+2025-07-16 09:57:47,117 - INFO - Executing QE job: ZnO-2.94-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.71-112.out)
+2025-07-16 09:58:37,925 - INFO - Successfully completed: ZnO-2.94-1.71-112.in
+2025-07-16 09:58:37,925 - INFO - Executing job 10/121: ZnO-2.94-1.74-112.in
+2025-07-16 09:58:37,926 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.74-112.out
+2025-07-16 09:58:37,926 - INFO - Executing QE job: ZnO-2.94-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.74-112.out)
+2025-07-16 09:59:29,265 - INFO - Successfully completed: ZnO-2.94-1.74-112.in
+2025-07-16 09:59:29,265 - INFO - Executing job 11/121: ZnO-2.94-1.78-112.in
+2025-07-16 09:59:29,266 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.78-112.out
+2025-07-16 09:59:29,266 - INFO - Executing QE job: ZnO-2.94-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-2.94-1.78-112.out)
+2025-07-16 10:00:20,414 - INFO - Successfully completed: ZnO-2.94-1.78-112.in
+2025-07-16 10:00:20,414 - INFO - Executing job 12/121: ZnO-3.01-1.45-112.in
+2025-07-16 10:00:20,414 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.45-112.out
+2025-07-16 10:00:20,414 - INFO - Executing QE job: ZnO-3.01-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.45-112.out)
+2025-07-16 10:01:11,554 - INFO - Successfully completed: ZnO-3.01-1.45-112.in
+2025-07-16 10:01:11,555 - INFO - Executing job 13/121: ZnO-3.01-1.49-112.in
+2025-07-16 10:01:11,555 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.49-112.out
+2025-07-16 10:01:11,555 - INFO - Executing QE job: ZnO-3.01-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.49-112.out)
+2025-07-16 10:02:02,794 - INFO - Successfully completed: ZnO-3.01-1.49-112.in
+2025-07-16 10:02:02,794 - INFO - Executing job 14/121: ZnO-3.01-1.52-112.in
+2025-07-16 10:02:02,794 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.52-112.out
+2025-07-16 10:02:02,795 - INFO - Executing QE job: ZnO-3.01-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.52-112.out)
+2025-07-16 10:02:53,673 - INFO - Successfully completed: ZnO-3.01-1.52-112.in
+2025-07-16 10:02:53,674 - INFO - Executing job 15/121: ZnO-3.01-1.55-112.in
+2025-07-16 10:02:53,674 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.55-112.out
+2025-07-16 10:02:53,674 - INFO - Executing QE job: ZnO-3.01-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.55-112.out)
+2025-07-16 10:03:44,841 - INFO - Successfully completed: ZnO-3.01-1.55-112.in
+2025-07-16 10:03:44,842 - INFO - Executing job 16/121: ZnO-3.01-1.58-112.in
+2025-07-16 10:03:44,842 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.58-112.out
+2025-07-16 10:03:44,842 - INFO - Executing QE job: ZnO-3.01-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.58-112.out)
+2025-07-16 10:04:36,166 - INFO - Successfully completed: ZnO-3.01-1.58-112.in
+2025-07-16 10:04:36,167 - INFO - Executing job 17/121: ZnO-3.01-1.61-112.in
+2025-07-16 10:04:36,167 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.61-112.out
+2025-07-16 10:04:36,167 - INFO - Executing QE job: ZnO-3.01-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.61-112.out)
+2025-07-16 10:05:27,327 - INFO - Successfully completed: ZnO-3.01-1.61-112.in
+2025-07-16 10:05:27,328 - INFO - Executing job 18/121: ZnO-3.01-1.65-112.in
+2025-07-16 10:05:27,328 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.65-112.out
+2025-07-16 10:05:27,328 - INFO - Executing QE job: ZnO-3.01-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.65-112.out)
+2025-07-16 10:06:18,700 - INFO - Successfully completed: ZnO-3.01-1.65-112.in
+2025-07-16 10:06:18,700 - INFO - Executing job 19/121: ZnO-3.01-1.68-112.in
+2025-07-16 10:06:18,700 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.68-112.out
+2025-07-16 10:06:18,700 - INFO - Executing QE job: ZnO-3.01-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.68-112.out)
+2025-07-16 10:07:09,857 - INFO - Successfully completed: ZnO-3.01-1.68-112.in
+2025-07-16 10:07:09,857 - INFO - Executing job 20/121: ZnO-3.01-1.71-112.in
+2025-07-16 10:07:09,858 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.71-112.out
+2025-07-16 10:07:09,858 - INFO - Executing QE job: ZnO-3.01-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.71-112.out)
+2025-07-16 10:08:01,146 - INFO - Successfully completed: ZnO-3.01-1.71-112.in
+2025-07-16 10:08:01,146 - INFO - Executing job 21/121: ZnO-3.01-1.74-112.in
+2025-07-16 10:08:01,146 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.74-112.out
+2025-07-16 10:08:01,147 - INFO - Executing QE job: ZnO-3.01-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.74-112.out)
+2025-07-16 10:08:52,464 - INFO - Successfully completed: ZnO-3.01-1.74-112.in
+2025-07-16 10:08:52,464 - INFO - Executing job 22/121: ZnO-3.01-1.78-112.in
+2025-07-16 10:08:52,464 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.78-112.out
+2025-07-16 10:08:52,464 - INFO - Executing QE job: ZnO-3.01-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.01-1.78-112.out)
+2025-07-16 10:09:43,427 - INFO - Successfully completed: ZnO-3.01-1.78-112.in
+2025-07-16 10:09:43,427 - INFO - Executing job 23/121: ZnO-3.07-1.45-112.in
+2025-07-16 10:09:43,427 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.45-112.out
+2025-07-16 10:09:43,427 - INFO - Executing QE job: ZnO-3.07-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.45-112.out)
+2025-07-16 10:10:34,661 - INFO - Successfully completed: ZnO-3.07-1.45-112.in
+2025-07-16 10:10:34,662 - INFO - Executing job 24/121: ZnO-3.07-1.49-112.in
+2025-07-16 10:10:34,662 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.49-112.out
+2025-07-16 10:10:34,662 - INFO - Executing QE job: ZnO-3.07-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.49-112.out)
+2025-07-16 10:11:25,578 - INFO - Successfully completed: ZnO-3.07-1.49-112.in
+2025-07-16 10:11:25,578 - INFO - Executing job 25/121: ZnO-3.07-1.52-112.in
+2025-07-16 10:11:25,578 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.52-112.out
+2025-07-16 10:11:25,578 - INFO - Executing QE job: ZnO-3.07-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.52-112.out)
+2025-07-16 10:12:16,655 - INFO - Successfully completed: ZnO-3.07-1.52-112.in
+2025-07-16 10:12:16,655 - INFO - Executing job 26/121: ZnO-3.07-1.55-112.in
+2025-07-16 10:12:16,656 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.55-112.out
+2025-07-16 10:12:16,656 - INFO - Executing QE job: ZnO-3.07-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.55-112.out)
+2025-07-16 10:13:07,707 - INFO - Successfully completed: ZnO-3.07-1.55-112.in
+2025-07-16 10:13:07,707 - INFO - Executing job 27/121: ZnO-3.07-1.58-112.in
+2025-07-16 10:13:07,708 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.58-112.out
+2025-07-16 10:13:07,708 - INFO - Executing QE job: ZnO-3.07-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.58-112.out)
+2025-07-16 10:13:58,870 - INFO - Successfully completed: ZnO-3.07-1.58-112.in
+2025-07-16 10:13:58,871 - INFO - Executing job 28/121: ZnO-3.07-1.61-112.in
+2025-07-16 10:13:58,871 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.61-112.out
+2025-07-16 10:13:58,871 - INFO - Executing QE job: ZnO-3.07-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.61-112.out)
+2025-07-16 10:14:49,921 - INFO - Successfully completed: ZnO-3.07-1.61-112.in
+2025-07-16 10:14:49,922 - INFO - Executing job 29/121: ZnO-3.07-1.65-112.in
+2025-07-16 10:14:49,922 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.65-112.out
+2025-07-16 10:14:49,922 - INFO - Executing QE job: ZnO-3.07-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.65-112.out)
+2025-07-16 10:15:40,829 - INFO - Successfully completed: ZnO-3.07-1.65-112.in
+2025-07-16 10:15:40,829 - INFO - Executing job 30/121: ZnO-3.07-1.68-112.in
+2025-07-16 10:15:40,830 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.68-112.out
+2025-07-16 10:15:40,830 - INFO - Executing QE job: ZnO-3.07-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.68-112.out)
+2025-07-16 10:16:32,204 - INFO - Successfully completed: ZnO-3.07-1.68-112.in
+2025-07-16 10:16:32,205 - INFO - Executing job 31/121: ZnO-3.07-1.71-112.in
+2025-07-16 10:16:32,205 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.71-112.out
+2025-07-16 10:16:32,205 - INFO - Executing QE job: ZnO-3.07-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.71-112.out)
+2025-07-16 10:17:23,463 - INFO - Successfully completed: ZnO-3.07-1.71-112.in
+2025-07-16 10:17:23,464 - INFO - Executing job 32/121: ZnO-3.07-1.74-112.in
+2025-07-16 10:17:23,464 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.74-112.out
+2025-07-16 10:17:23,464 - INFO - Executing QE job: ZnO-3.07-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.74-112.out)
+2025-07-16 10:18:14,805 - INFO - Successfully completed: ZnO-3.07-1.74-112.in
+2025-07-16 10:18:14,805 - INFO - Executing job 33/121: ZnO-3.07-1.78-112.in
+2025-07-16 10:18:14,805 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.78-112.out
+2025-07-16 10:18:14,805 - INFO - Executing QE job: ZnO-3.07-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.07-1.78-112.out)
+2025-07-16 10:19:05,780 - INFO - Successfully completed: ZnO-3.07-1.78-112.in
+2025-07-16 10:19:05,781 - INFO - Executing job 34/121: ZnO-3.14-1.45-112.in
+2025-07-16 10:19:05,781 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.45-112.out
+2025-07-16 10:19:05,781 - INFO - Executing QE job: ZnO-3.14-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.45-112.out)
+2025-07-16 10:19:56,923 - INFO - Successfully completed: ZnO-3.14-1.45-112.in
+2025-07-16 10:19:56,924 - INFO - Executing job 35/121: ZnO-3.14-1.49-112.in
+2025-07-16 10:19:56,924 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.49-112.out
+2025-07-16 10:19:56,924 - INFO - Executing QE job: ZnO-3.14-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.49-112.out)
+2025-07-16 10:20:47,910 - INFO - Successfully completed: ZnO-3.14-1.49-112.in
+2025-07-16 10:20:47,910 - INFO - Executing job 36/121: ZnO-3.14-1.52-112.in
+2025-07-16 10:20:47,911 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.52-112.out
+2025-07-16 10:20:47,911 - INFO - Executing QE job: ZnO-3.14-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.52-112.out)
+2025-07-16 10:21:39,058 - INFO - Successfully completed: ZnO-3.14-1.52-112.in
+2025-07-16 10:21:39,058 - INFO - Executing job 37/121: ZnO-3.14-1.55-112.in
+2025-07-16 10:21:39,058 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.55-112.out
+2025-07-16 10:21:39,058 - INFO - Executing QE job: ZnO-3.14-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.55-112.out)
+2025-07-16 10:22:29,926 - INFO - Successfully completed: ZnO-3.14-1.55-112.in
+2025-07-16 10:22:29,926 - INFO - Executing job 38/121: ZnO-3.14-1.58-112.in
+2025-07-16 10:22:29,926 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.58-112.out
+2025-07-16 10:22:29,926 - INFO - Executing QE job: ZnO-3.14-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.58-112.out)
+2025-07-16 10:23:21,294 - INFO - Successfully completed: ZnO-3.14-1.58-112.in
+2025-07-16 10:23:21,294 - INFO - Executing job 39/121: ZnO-3.14-1.61-112.in
+2025-07-16 10:23:21,294 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.61-112.out
+2025-07-16 10:23:21,294 - INFO - Executing QE job: ZnO-3.14-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.61-112.out)
+2025-07-16 10:24:12,445 - INFO - Successfully completed: ZnO-3.14-1.61-112.in
+2025-07-16 10:24:12,445 - INFO - Executing job 40/121: ZnO-3.14-1.65-112.in
+2025-07-16 10:24:12,446 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.65-112.out
+2025-07-16 10:24:12,446 - INFO - Executing QE job: ZnO-3.14-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.65-112.out)
+2025-07-16 10:25:03,444 - INFO - Successfully completed: ZnO-3.14-1.65-112.in
+2025-07-16 10:25:03,444 - INFO - Executing job 41/121: ZnO-3.14-1.68-112.in
+2025-07-16 10:25:03,444 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.68-112.out
+2025-07-16 10:25:03,444 - INFO - Executing QE job: ZnO-3.14-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.68-112.out)
+2025-07-16 10:25:54,305 - INFO - Successfully completed: ZnO-3.14-1.68-112.in
+2025-07-16 10:25:54,306 - INFO - Executing job 42/121: ZnO-3.14-1.71-112.in
+2025-07-16 10:25:54,306 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.71-112.out
+2025-07-16 10:25:54,306 - INFO - Executing QE job: ZnO-3.14-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.71-112.out)
+2025-07-16 10:26:45,149 - INFO - Successfully completed: ZnO-3.14-1.71-112.in
+2025-07-16 10:26:45,150 - INFO - Executing job 43/121: ZnO-3.14-1.74-112.in
+2025-07-16 10:26:45,150 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.74-112.out
+2025-07-16 10:26:45,150 - INFO - Executing QE job: ZnO-3.14-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.74-112.out)
+2025-07-16 10:27:36,237 - INFO - Successfully completed: ZnO-3.14-1.74-112.in
+2025-07-16 10:27:36,237 - INFO - Executing job 44/121: ZnO-3.14-1.78-112.in
+2025-07-16 10:27:36,237 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.78-112.out
+2025-07-16 10:27:36,237 - INFO - Executing QE job: ZnO-3.14-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.14-1.78-112.out)
+2025-07-16 10:28:27,775 - INFO - Successfully completed: ZnO-3.14-1.78-112.in
+2025-07-16 10:28:27,775 - INFO - Executing job 45/121: ZnO-3.20-1.45-112.in
+2025-07-16 10:28:27,775 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.45-112.out
+2025-07-16 10:28:27,775 - INFO - Executing QE job: ZnO-3.20-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.45-112.out)
+2025-07-16 10:29:18,717 - INFO - Successfully completed: ZnO-3.20-1.45-112.in
+2025-07-16 10:29:18,718 - INFO - Executing job 46/121: ZnO-3.20-1.49-112.in
+2025-07-16 10:29:18,718 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.49-112.out
+2025-07-16 10:29:18,718 - INFO - Executing QE job: ZnO-3.20-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.49-112.out)
+2025-07-16 10:30:09,943 - INFO - Successfully completed: ZnO-3.20-1.49-112.in
+2025-07-16 10:30:09,943 - INFO - Executing job 47/121: ZnO-3.20-1.52-112.in
+2025-07-16 10:30:09,944 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.52-112.out
+2025-07-16 10:30:09,944 - INFO - Executing QE job: ZnO-3.20-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.52-112.out)
+2025-07-16 10:31:01,078 - INFO - Successfully completed: ZnO-3.20-1.52-112.in
+2025-07-16 10:31:01,078 - INFO - Executing job 48/121: ZnO-3.20-1.55-112.in
+2025-07-16 10:31:01,078 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.55-112.out
+2025-07-16 10:31:01,078 - INFO - Executing QE job: ZnO-3.20-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.55-112.out)
+2025-07-16 10:31:52,250 - INFO - Successfully completed: ZnO-3.20-1.55-112.in
+2025-07-16 10:31:52,250 - INFO - Executing job 49/121: ZnO-3.20-1.58-112.in
+2025-07-16 10:31:52,250 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.58-112.out
+2025-07-16 10:31:52,251 - INFO - Executing QE job: ZnO-3.20-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.58-112.out)
+2025-07-16 10:32:43,316 - INFO - Successfully completed: ZnO-3.20-1.58-112.in
+2025-07-16 10:32:43,316 - INFO - Executing job 50/121: ZnO-3.20-1.61-112.in
+2025-07-16 10:32:43,317 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.61-112.out
+2025-07-16 10:32:43,317 - INFO - Executing QE job: ZnO-3.20-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.61-112.out)
+2025-07-16 10:33:34,207 - INFO - Successfully completed: ZnO-3.20-1.61-112.in
+2025-07-16 10:33:34,207 - INFO - Executing job 51/121: ZnO-3.20-1.65-112.in
+2025-07-16 10:33:34,208 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.65-112.out
+2025-07-16 10:33:34,208 - INFO - Executing QE job: ZnO-3.20-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.65-112.out)
+2025-07-16 10:34:25,179 - INFO - Successfully completed: ZnO-3.20-1.65-112.in
+2025-07-16 10:34:25,179 - INFO - Executing job 52/121: ZnO-3.20-1.68-112.in
+2025-07-16 10:34:25,180 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.68-112.out
+2025-07-16 10:34:25,180 - INFO - Executing QE job: ZnO-3.20-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.68-112.out)
+2025-07-16 10:35:16,695 - INFO - Successfully completed: ZnO-3.20-1.68-112.in
+2025-07-16 10:35:16,695 - INFO - Executing job 53/121: ZnO-3.20-1.71-112.in
+2025-07-16 10:35:16,696 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.71-112.out
+2025-07-16 10:35:16,696 - INFO - Executing QE job: ZnO-3.20-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.71-112.out)
+2025-07-16 10:36:07,777 - INFO - Successfully completed: ZnO-3.20-1.71-112.in
+2025-07-16 10:36:07,777 - INFO - Executing job 54/121: ZnO-3.20-1.74-112.in
+2025-07-16 10:36:07,778 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.74-112.out
+2025-07-16 10:36:07,778 - INFO - Executing QE job: ZnO-3.20-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.74-112.out)
+2025-07-16 10:36:59,079 - INFO - Successfully completed: ZnO-3.20-1.74-112.in
+2025-07-16 10:36:59,079 - INFO - Executing job 55/121: ZnO-3.20-1.78-112.in
+2025-07-16 10:36:59,079 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.78-112.out
+2025-07-16 10:36:59,080 - INFO - Executing QE job: ZnO-3.20-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.20-1.78-112.out)
+2025-07-16 10:37:50,350 - INFO - Successfully completed: ZnO-3.20-1.78-112.in
+2025-07-16 10:37:50,350 - INFO - Executing job 56/121: ZnO-3.27-1.45-112.in
+2025-07-16 10:37:50,351 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.45-112.out
+2025-07-16 10:37:50,351 - INFO - Executing QE job: ZnO-3.27-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.45-112.out)
+2025-07-16 10:38:41,245 - INFO - Successfully completed: ZnO-3.27-1.45-112.in
+2025-07-16 10:38:41,245 - INFO - Executing job 57/121: ZnO-3.27-1.49-112.in
+2025-07-16 10:38:41,245 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.49-112.out
+2025-07-16 10:38:41,246 - INFO - Executing QE job: ZnO-3.27-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.49-112.out)
+2025-07-16 10:39:32,533 - INFO - Successfully completed: ZnO-3.27-1.49-112.in
+2025-07-16 10:39:32,533 - INFO - Executing job 58/121: ZnO-3.27-1.52-112.in
+2025-07-16 10:39:32,533 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.52-112.out
+2025-07-16 10:39:32,534 - INFO - Executing QE job: ZnO-3.27-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.52-112.out)
+2025-07-16 10:40:23,623 - INFO - Successfully completed: ZnO-3.27-1.52-112.in
+2025-07-16 10:40:23,624 - INFO - Executing job 59/121: ZnO-3.27-1.55-112.in
+2025-07-16 10:40:23,624 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.55-112.out
+2025-07-16 10:40:23,624 - INFO - Executing QE job: ZnO-3.27-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.55-112.out)
+2025-07-16 10:41:14,675 - INFO - Successfully completed: ZnO-3.27-1.55-112.in
+2025-07-16 10:41:14,675 - INFO - Executing job 60/121: ZnO-3.27-1.58-112.in
+2025-07-16 10:41:14,676 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.58-112.out
+2025-07-16 10:41:14,676 - INFO - Executing QE job: ZnO-3.27-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.58-112.out)
+2025-07-16 10:42:05,811 - INFO - Successfully completed: ZnO-3.27-1.58-112.in
+2025-07-16 10:42:05,812 - INFO - Executing job 61/121: ZnO-3.27-1.61-112.in
+2025-07-16 10:42:05,812 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.61-112.out
+2025-07-16 10:42:05,812 - INFO - Executing QE job: ZnO-3.27-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.61-112.out)
+2025-07-16 10:42:57,078 - INFO - Successfully completed: ZnO-3.27-1.61-112.in
+2025-07-16 10:42:57,078 - INFO - Executing job 62/121: ZnO-3.27-1.65-112.in
+2025-07-16 10:42:57,079 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.65-112.out
+2025-07-16 10:42:57,079 - INFO - Executing QE job: ZnO-3.27-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.65-112.out)
+2025-07-16 10:43:48,202 - INFO - Successfully completed: ZnO-3.27-1.65-112.in
+2025-07-16 10:43:48,202 - INFO - Executing job 63/121: ZnO-3.27-1.68-112.in
+2025-07-16 10:43:48,202 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.68-112.out
+2025-07-16 10:43:48,203 - INFO - Executing QE job: ZnO-3.27-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.68-112.out)
+2025-07-16 10:44:39,475 - INFO - Successfully completed: ZnO-3.27-1.68-112.in
+2025-07-16 10:44:39,475 - INFO - Executing job 64/121: ZnO-3.27-1.71-112.in
+2025-07-16 10:44:39,476 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.71-112.out
+2025-07-16 10:44:39,476 - INFO - Executing QE job: ZnO-3.27-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.71-112.out)
+2025-07-16 10:45:30,198 - INFO - Successfully completed: ZnO-3.27-1.71-112.in
+2025-07-16 10:45:30,198 - INFO - Executing job 65/121: ZnO-3.27-1.74-112.in
+2025-07-16 10:45:30,198 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.74-112.out
+2025-07-16 10:45:30,198 - INFO - Executing QE job: ZnO-3.27-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.74-112.out)
+2025-07-16 10:46:21,181 - INFO - Successfully completed: ZnO-3.27-1.74-112.in
+2025-07-16 10:46:21,182 - INFO - Executing job 66/121: ZnO-3.27-1.78-112.in
+2025-07-16 10:46:21,182 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.78-112.out
+2025-07-16 10:46:21,182 - INFO - Executing QE job: ZnO-3.27-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.27-1.78-112.out)
+2025-07-16 10:47:12,141 - INFO - Successfully completed: ZnO-3.27-1.78-112.in
+2025-07-16 10:47:12,141 - INFO - Executing job 67/121: ZnO-3.34-1.45-112.in
+2025-07-16 10:47:12,141 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.45-112.out
+2025-07-16 10:47:12,142 - INFO - Executing QE job: ZnO-3.34-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.45-112.out)
+2025-07-16 10:48:03,022 - INFO - Successfully completed: ZnO-3.34-1.45-112.in
+2025-07-16 10:48:03,023 - INFO - Executing job 68/121: ZnO-3.34-1.49-112.in
+2025-07-16 10:48:03,023 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.49-112.out
+2025-07-16 10:48:03,023 - INFO - Executing QE job: ZnO-3.34-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.49-112.out)
+2025-07-16 10:48:54,420 - INFO - Successfully completed: ZnO-3.34-1.49-112.in
+2025-07-16 10:48:54,421 - INFO - Executing job 69/121: ZnO-3.34-1.52-112.in
+2025-07-16 10:48:54,421 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.52-112.out
+2025-07-16 10:48:54,421 - INFO - Executing QE job: ZnO-3.34-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.52-112.out)
+2025-07-16 10:49:45,299 - INFO - Successfully completed: ZnO-3.34-1.52-112.in
+2025-07-16 10:49:45,300 - INFO - Executing job 70/121: ZnO-3.34-1.55-112.in
+2025-07-16 10:49:45,300 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.55-112.out
+2025-07-16 10:49:45,300 - INFO - Executing QE job: ZnO-3.34-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.55-112.out)
+2025-07-16 10:50:36,196 - INFO - Successfully completed: ZnO-3.34-1.55-112.in
+2025-07-16 10:50:36,196 - INFO - Executing job 71/121: ZnO-3.34-1.58-112.in
+2025-07-16 10:50:36,197 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.58-112.out
+2025-07-16 10:50:36,197 - INFO - Executing QE job: ZnO-3.34-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.58-112.out)
+2025-07-16 10:51:27,537 - INFO - Successfully completed: ZnO-3.34-1.58-112.in
+2025-07-16 10:51:27,537 - INFO - Executing job 72/121: ZnO-3.34-1.61-112.in
+2025-07-16 10:51:27,538 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.61-112.out
+2025-07-16 10:51:27,538 - INFO - Executing QE job: ZnO-3.34-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.61-112.out)
+2025-07-16 10:52:18,702 - INFO - Successfully completed: ZnO-3.34-1.61-112.in
+2025-07-16 10:52:18,702 - INFO - Executing job 73/121: ZnO-3.34-1.65-112.in
+2025-07-16 10:52:18,702 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.65-112.out
+2025-07-16 10:52:18,703 - INFO - Executing QE job: ZnO-3.34-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.65-112.out)
+2025-07-16 10:53:09,731 - INFO - Successfully completed: ZnO-3.34-1.65-112.in
+2025-07-16 10:53:09,731 - INFO - Executing job 74/121: ZnO-3.34-1.68-112.in
+2025-07-16 10:53:09,731 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.68-112.out
+2025-07-16 10:53:09,732 - INFO - Executing QE job: ZnO-3.34-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.68-112.out)
+2025-07-16 10:54:01,005 - INFO - Successfully completed: ZnO-3.34-1.68-112.in
+2025-07-16 10:54:01,005 - INFO - Executing job 75/121: ZnO-3.34-1.71-112.in
+2025-07-16 10:54:01,005 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.71-112.out
+2025-07-16 10:54:01,006 - INFO - Executing QE job: ZnO-3.34-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.71-112.out)
+2025-07-16 10:54:52,169 - INFO - Successfully completed: ZnO-3.34-1.71-112.in
+2025-07-16 10:54:52,169 - INFO - Executing job 76/121: ZnO-3.34-1.74-112.in
+2025-07-16 10:54:52,169 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.74-112.out
+2025-07-16 10:54:52,170 - INFO - Executing QE job: ZnO-3.34-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.74-112.out)
+2025-07-16 10:55:43,603 - INFO - Successfully completed: ZnO-3.34-1.74-112.in
+2025-07-16 10:55:43,603 - INFO - Executing job 77/121: ZnO-3.34-1.78-112.in
+2025-07-16 10:55:43,604 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.78-112.out
+2025-07-16 10:55:43,604 - INFO - Executing QE job: ZnO-3.34-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.34-1.78-112.out)
+2025-07-16 10:56:35,001 - INFO - Successfully completed: ZnO-3.34-1.78-112.in
+2025-07-16 10:56:35,001 - INFO - Executing job 78/121: ZnO-3.40-1.45-112.in
+2025-07-16 10:56:35,001 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.45-112.out
+2025-07-16 10:56:35,001 - INFO - Executing QE job: ZnO-3.40-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.45-112.out)
+2025-07-16 10:57:25,962 - INFO - Successfully completed: ZnO-3.40-1.45-112.in
+2025-07-16 10:57:25,962 - INFO - Executing job 79/121: ZnO-3.40-1.49-112.in
+2025-07-16 10:57:25,962 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.49-112.out
+2025-07-16 10:57:25,963 - INFO - Executing QE job: ZnO-3.40-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.49-112.out)
+2025-07-16 10:58:16,994 - INFO - Successfully completed: ZnO-3.40-1.49-112.in
+2025-07-16 10:58:16,994 - INFO - Executing job 80/121: ZnO-3.40-1.52-112.in
+2025-07-16 10:58:16,995 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.52-112.out
+2025-07-16 10:58:16,995 - INFO - Executing QE job: ZnO-3.40-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.52-112.out)
+2025-07-16 10:59:07,909 - INFO - Successfully completed: ZnO-3.40-1.52-112.in
+2025-07-16 10:59:07,910 - INFO - Executing job 81/121: ZnO-3.40-1.55-112.in
+2025-07-16 10:59:07,910 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.55-112.out
+2025-07-16 10:59:07,910 - INFO - Executing QE job: ZnO-3.40-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.55-112.out)
+2025-07-16 10:59:59,179 - INFO - Successfully completed: ZnO-3.40-1.55-112.in
+2025-07-16 10:59:59,180 - INFO - Executing job 82/121: ZnO-3.40-1.58-112.in
+2025-07-16 10:59:59,180 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.58-112.out
+2025-07-16 10:59:59,180 - INFO - Executing QE job: ZnO-3.40-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.58-112.out)
+2025-07-16 11:00:50,026 - INFO - Successfully completed: ZnO-3.40-1.58-112.in
+2025-07-16 11:00:50,027 - INFO - Executing job 83/121: ZnO-3.40-1.61-112.in
+2025-07-16 11:00:50,027 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.61-112.out
+2025-07-16 11:00:50,027 - INFO - Executing QE job: ZnO-3.40-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.61-112.out)
+2025-07-16 11:01:41,171 - INFO - Successfully completed: ZnO-3.40-1.61-112.in
+2025-07-16 11:01:41,171 - INFO - Executing job 84/121: ZnO-3.40-1.65-112.in
+2025-07-16 11:01:41,172 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.65-112.out
+2025-07-16 11:01:41,172 - INFO - Executing QE job: ZnO-3.40-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.65-112.out)
+2025-07-16 11:02:32,219 - INFO - Successfully completed: ZnO-3.40-1.65-112.in
+2025-07-16 11:02:32,220 - INFO - Executing job 85/121: ZnO-3.40-1.68-112.in
+2025-07-16 11:02:32,220 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.68-112.out
+2025-07-16 11:02:32,220 - INFO - Executing QE job: ZnO-3.40-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.68-112.out)
+2025-07-16 11:03:23,568 - INFO - Successfully completed: ZnO-3.40-1.68-112.in
+2025-07-16 11:03:23,568 - INFO - Executing job 86/121: ZnO-3.40-1.71-112.in
+2025-07-16 11:03:23,569 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.71-112.out
+2025-07-16 11:03:23,569 - INFO - Executing QE job: ZnO-3.40-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.71-112.out)
+2025-07-16 11:04:14,909 - INFO - Successfully completed: ZnO-3.40-1.71-112.in
+2025-07-16 11:04:14,909 - INFO - Executing job 87/121: ZnO-3.40-1.74-112.in
+2025-07-16 11:04:14,909 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.74-112.out
+2025-07-16 11:04:14,909 - INFO - Executing QE job: ZnO-3.40-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.74-112.out)
+2025-07-16 11:05:06,434 - INFO - Successfully completed: ZnO-3.40-1.74-112.in
+2025-07-16 11:05:06,435 - INFO - Executing job 88/121: ZnO-3.40-1.78-112.in
+2025-07-16 11:05:06,435 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.78-112.out
+2025-07-16 11:05:06,435 - INFO - Executing QE job: ZnO-3.40-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.40-1.78-112.out)
+2025-07-16 11:05:57,660 - INFO - Successfully completed: ZnO-3.40-1.78-112.in
+2025-07-16 11:05:57,660 - INFO - Executing job 89/121: ZnO-3.47-1.45-112.in
+2025-07-16 11:05:57,660 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.45-112.out
+2025-07-16 11:05:57,661 - INFO - Executing QE job: ZnO-3.47-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.45-112.out)
+2025-07-16 11:06:48,578 - INFO - Successfully completed: ZnO-3.47-1.45-112.in
+2025-07-16 11:06:48,579 - INFO - Executing job 90/121: ZnO-3.47-1.49-112.in
+2025-07-16 11:06:48,579 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.49-112.out
+2025-07-16 11:06:48,579 - INFO - Executing QE job: ZnO-3.47-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.49-112.out)
+2025-07-16 11:07:39,739 - INFO - Successfully completed: ZnO-3.47-1.49-112.in
+2025-07-16 11:07:39,740 - INFO - Executing job 91/121: ZnO-3.47-1.52-112.in
+2025-07-16 11:07:39,740 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.52-112.out
+2025-07-16 11:07:39,740 - INFO - Executing QE job: ZnO-3.47-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.52-112.out)
+2025-07-16 11:08:30,759 - INFO - Successfully completed: ZnO-3.47-1.52-112.in
+2025-07-16 11:08:30,759 - INFO - Executing job 92/121: ZnO-3.47-1.55-112.in
+2025-07-16 11:08:30,759 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.55-112.out
+2025-07-16 11:08:30,759 - INFO - Executing QE job: ZnO-3.47-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.55-112.out)
+2025-07-16 11:09:21,701 - INFO - Successfully completed: ZnO-3.47-1.55-112.in
+2025-07-16 11:09:21,702 - INFO - Executing job 93/121: ZnO-3.47-1.58-112.in
+2025-07-16 11:09:21,702 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.58-112.out
+2025-07-16 11:09:21,702 - INFO - Executing QE job: ZnO-3.47-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.58-112.out)
+2025-07-16 11:10:13,043 - INFO - Successfully completed: ZnO-3.47-1.58-112.in
+2025-07-16 11:10:13,044 - INFO - Executing job 94/121: ZnO-3.47-1.61-112.in
+2025-07-16 11:10:13,044 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.61-112.out
+2025-07-16 11:10:13,044 - INFO - Executing QE job: ZnO-3.47-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.61-112.out)
+2025-07-16 11:11:04,262 - INFO - Successfully completed: ZnO-3.47-1.61-112.in
+2025-07-16 11:11:04,262 - INFO - Executing job 95/121: ZnO-3.47-1.65-112.in
+2025-07-16 11:11:04,262 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.65-112.out
+2025-07-16 11:11:04,262 - INFO - Executing QE job: ZnO-3.47-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.65-112.out)
+2025-07-16 11:11:55,479 - INFO - Successfully completed: ZnO-3.47-1.65-112.in
+2025-07-16 11:11:55,479 - INFO - Executing job 96/121: ZnO-3.47-1.68-112.in
+2025-07-16 11:11:55,479 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.68-112.out
+2025-07-16 11:11:55,480 - INFO - Executing QE job: ZnO-3.47-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.68-112.out)
+2025-07-16 11:12:46,499 - INFO - Successfully completed: ZnO-3.47-1.68-112.in
+2025-07-16 11:12:46,500 - INFO - Executing job 97/121: ZnO-3.47-1.71-112.in
+2025-07-16 11:12:46,500 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.71-112.out
+2025-07-16 11:12:46,500 - INFO - Executing QE job: ZnO-3.47-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.71-112.out)
+2025-07-16 11:13:37,622 - INFO - Successfully completed: ZnO-3.47-1.71-112.in
+2025-07-16 11:13:37,623 - INFO - Executing job 98/121: ZnO-3.47-1.74-112.in
+2025-07-16 11:13:37,623 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.74-112.out
+2025-07-16 11:13:37,623 - INFO - Executing QE job: ZnO-3.47-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.74-112.out)
+2025-07-16 11:14:28,750 - INFO - Successfully completed: ZnO-3.47-1.74-112.in
+2025-07-16 11:14:28,751 - INFO - Executing job 99/121: ZnO-3.47-1.78-112.in
+2025-07-16 11:14:28,751 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.78-112.out
+2025-07-16 11:14:28,751 - INFO - Executing QE job: ZnO-3.47-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.47-1.78-112.out)
+2025-07-16 11:15:20,219 - INFO - Successfully completed: ZnO-3.47-1.78-112.in
+2025-07-16 11:15:20,219 - INFO - Executing job 100/121: ZnO-3.53-1.45-112.in
+2025-07-16 11:15:20,219 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.45-112.out
+2025-07-16 11:15:20,219 - INFO - Executing QE job: ZnO-3.53-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.45-112.out)
+2025-07-16 11:16:12,053 - INFO - Successfully completed: ZnO-3.53-1.45-112.in
+2025-07-16 11:16:12,053 - INFO - Executing job 101/121: ZnO-3.53-1.49-112.in
+2025-07-16 11:16:12,053 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.49-112.out
+2025-07-16 11:16:12,053 - INFO - Executing QE job: ZnO-3.53-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.49-112.out)
+2025-07-16 11:17:03,244 - INFO - Successfully completed: ZnO-3.53-1.49-112.in
+2025-07-16 11:17:03,244 - INFO - Executing job 102/121: ZnO-3.53-1.52-112.in
+2025-07-16 11:17:03,245 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.52-112.out
+2025-07-16 11:17:03,245 - INFO - Executing QE job: ZnO-3.53-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.52-112.out)
+2025-07-16 11:17:54,619 - INFO - Successfully completed: ZnO-3.53-1.52-112.in
+2025-07-16 11:17:54,619 - INFO - Executing job 103/121: ZnO-3.53-1.55-112.in
+2025-07-16 11:17:54,619 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.55-112.out
+2025-07-16 11:17:54,619 - INFO - Executing QE job: ZnO-3.53-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.55-112.out)
+2025-07-16 11:18:45,912 - INFO - Successfully completed: ZnO-3.53-1.55-112.in
+2025-07-16 11:18:45,913 - INFO - Executing job 104/121: ZnO-3.53-1.58-112.in
+2025-07-16 11:18:45,913 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.58-112.out
+2025-07-16 11:18:45,913 - INFO - Executing QE job: ZnO-3.53-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.58-112.out)
+2025-07-16 11:19:36,880 - INFO - Successfully completed: ZnO-3.53-1.58-112.in
+2025-07-16 11:19:36,880 - INFO - Executing job 105/121: ZnO-3.53-1.61-112.in
+2025-07-16 11:19:36,881 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.61-112.out
+2025-07-16 11:19:36,881 - INFO - Executing QE job: ZnO-3.53-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.61-112.out)
+2025-07-16 11:20:27,993 - INFO - Successfully completed: ZnO-3.53-1.61-112.in
+2025-07-16 11:20:27,993 - INFO - Executing job 106/121: ZnO-3.53-1.65-112.in
+2025-07-16 11:20:27,993 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.65-112.out
+2025-07-16 11:20:27,993 - INFO - Executing QE job: ZnO-3.53-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.65-112.out)
+2025-07-16 11:21:18,920 - INFO - Successfully completed: ZnO-3.53-1.65-112.in
+2025-07-16 11:21:18,921 - INFO - Executing job 107/121: ZnO-3.53-1.68-112.in
+2025-07-16 11:21:18,921 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.68-112.out
+2025-07-16 11:21:18,921 - INFO - Executing QE job: ZnO-3.53-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.68-112.out)
+2025-07-16 11:22:09,811 - INFO - Successfully completed: ZnO-3.53-1.68-112.in
+2025-07-16 11:22:09,811 - INFO - Executing job 108/121: ZnO-3.53-1.71-112.in
+2025-07-16 11:22:09,811 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.71-112.out
+2025-07-16 11:22:09,811 - INFO - Executing QE job: ZnO-3.53-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.71-112.out)
+2025-07-16 11:23:01,023 - INFO - Successfully completed: ZnO-3.53-1.71-112.in
+2025-07-16 11:23:01,023 - INFO - Executing job 109/121: ZnO-3.53-1.74-112.in
+2025-07-16 11:23:01,023 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.74-112.out
+2025-07-16 11:23:01,023 - INFO - Executing QE job: ZnO-3.53-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.74-112.out)
+2025-07-16 11:23:52,013 - INFO - Successfully completed: ZnO-3.53-1.74-112.in
+2025-07-16 11:23:52,013 - INFO - Executing job 110/121: ZnO-3.53-1.78-112.in
+2025-07-16 11:23:52,014 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.78-112.out
+2025-07-16 11:23:52,014 - INFO - Executing QE job: ZnO-3.53-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.53-1.78-112.out)
+2025-07-16 11:24:43,010 - INFO - Successfully completed: ZnO-3.53-1.78-112.in
+2025-07-16 11:24:43,011 - INFO - Executing job 111/121: ZnO-3.60-1.45-112.in
+2025-07-16 11:24:43,011 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.45-112.out
+2025-07-16 11:24:43,011 - INFO - Executing QE job: ZnO-3.60-1.45-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.45-112.out)
+2025-07-16 11:25:34,352 - INFO - Successfully completed: ZnO-3.60-1.45-112.in
+2025-07-16 11:25:34,353 - INFO - Executing job 112/121: ZnO-3.60-1.49-112.in
+2025-07-16 11:25:34,353 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.49-112.out
+2025-07-16 11:25:34,353 - INFO - Executing QE job: ZnO-3.60-1.49-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.49-112.out)
+2025-07-16 11:26:25,228 - INFO - Successfully completed: ZnO-3.60-1.49-112.in
+2025-07-16 11:26:25,228 - INFO - Executing job 113/121: ZnO-3.60-1.52-112.in
+2025-07-16 11:26:25,229 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.52-112.out
+2025-07-16 11:26:25,229 - INFO - Executing QE job: ZnO-3.60-1.52-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.52-112.out)
+2025-07-16 11:27:16,300 - INFO - Successfully completed: ZnO-3.60-1.52-112.in
+2025-07-16 11:27:16,301 - INFO - Executing job 114/121: ZnO-3.60-1.55-112.in
+2025-07-16 11:27:16,301 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.55-112.out
+2025-07-16 11:27:16,301 - INFO - Executing QE job: ZnO-3.60-1.55-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.55-112.out)
+2025-07-16 11:28:07,432 - INFO - Successfully completed: ZnO-3.60-1.55-112.in
+2025-07-16 11:28:07,432 - INFO - Executing job 115/121: ZnO-3.60-1.58-112.in
+2025-07-16 11:28:07,432 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.58-112.out
+2025-07-16 11:28:07,433 - INFO - Executing QE job: ZnO-3.60-1.58-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.58-112.out)
+2025-07-16 11:28:58,475 - INFO - Successfully completed: ZnO-3.60-1.58-112.in
+2025-07-16 11:28:58,476 - INFO - Executing job 116/121: ZnO-3.60-1.61-112.in
+2025-07-16 11:28:58,476 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.61-112.out
+2025-07-16 11:28:58,476 - INFO - Executing QE job: ZnO-3.60-1.61-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.61-112.out)
+2025-07-16 11:29:49,565 - INFO - Successfully completed: ZnO-3.60-1.61-112.in
+2025-07-16 11:29:49,566 - INFO - Executing job 117/121: ZnO-3.60-1.65-112.in
+2025-07-16 11:29:49,566 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.65-112.out
+2025-07-16 11:29:49,566 - INFO - Executing QE job: ZnO-3.60-1.65-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.65-112.out)
+2025-07-16 11:30:40,710 - INFO - Successfully completed: ZnO-3.60-1.65-112.in
+2025-07-16 11:30:40,710 - INFO - Executing job 118/121: ZnO-3.60-1.68-112.in
+2025-07-16 11:30:40,710 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.68-112.out
+2025-07-16 11:30:40,711 - INFO - Executing QE job: ZnO-3.60-1.68-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.68-112.out)
+2025-07-16 11:31:31,799 - INFO - Successfully completed: ZnO-3.60-1.68-112.in
+2025-07-16 11:31:31,799 - INFO - Executing job 119/121: ZnO-3.60-1.71-112.in
+2025-07-16 11:31:31,800 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.71-112.out
+2025-07-16 11:31:31,800 - INFO - Executing QE job: ZnO-3.60-1.71-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.71-112.out)
+2025-07-16 11:32:23,151 - INFO - Successfully completed: ZnO-3.60-1.71-112.in
+2025-07-16 11:32:23,151 - INFO - Executing job 120/121: ZnO-3.60-1.74-112.in
+2025-07-16 11:32:23,151 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.74-112.out
+2025-07-16 11:32:23,151 - INFO - Executing QE job: ZnO-3.60-1.74-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.74-112.out)
+2025-07-16 11:33:14,352 - INFO - Successfully completed: ZnO-3.60-1.74-112.in
+2025-07-16 11:33:14,352 - INFO - Executing job 121/121: ZnO-3.60-1.78-112.in
+2025-07-16 11:33:14,353 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.78-112.out
+2025-07-16 11:33:14,353 - INFO - Executing QE job: ZnO-3.60-1.78-112.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell112.out/ZnO-3.60-1.78-112.out)
+2025-07-16 11:34:05,534 - INFO - Successfully completed: ZnO-3.60-1.78-112.in
+2025-07-16 11:34:05,534 - INFO - All QE jobs completed.
+2025-07-16 12:19:16,647 - INFO - Found 121 input files to process.
+2025-07-16 12:19:16,647 - INFO - Executing job 1/121: ZnO-2.94-1.45-113.in
+2025-07-16 12:19:16,647 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.45-113.out
+2025-07-16 12:19:16,647 - INFO - Executing QE job: ZnO-2.94-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.45-113.out)
+2025-07-16 12:21:01,404 - INFO - Successfully completed: ZnO-2.94-1.45-113.in
+2025-07-16 12:21:01,404 - INFO - Executing job 2/121: ZnO-2.94-1.49-113.in
+2025-07-16 12:21:01,404 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.49-113.out
+2025-07-16 12:21:01,405 - INFO - Executing QE job: ZnO-2.94-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.49-113.out)
+2025-07-16 12:22:46,124 - INFO - Successfully completed: ZnO-2.94-1.49-113.in
+2025-07-16 12:22:46,124 - INFO - Executing job 3/121: ZnO-2.94-1.52-113.in
+2025-07-16 12:22:46,125 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.52-113.out
+2025-07-16 12:22:46,125 - INFO - Executing QE job: ZnO-2.94-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.52-113.out)
+2025-07-16 12:24:31,064 - INFO - Successfully completed: ZnO-2.94-1.52-113.in
+2025-07-16 12:24:31,064 - INFO - Executing job 4/121: ZnO-2.94-1.55-113.in
+2025-07-16 12:24:31,065 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.55-113.out
+2025-07-16 12:24:31,065 - INFO - Executing QE job: ZnO-2.94-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.55-113.out)
+2025-07-16 12:26:16,127 - INFO - Successfully completed: ZnO-2.94-1.55-113.in
+2025-07-16 12:26:16,128 - INFO - Executing job 5/121: ZnO-2.94-1.58-113.in
+2025-07-16 12:26:16,128 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.58-113.out
+2025-07-16 12:26:16,128 - INFO - Executing QE job: ZnO-2.94-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.58-113.out)
+2025-07-16 12:28:01,515 - INFO - Successfully completed: ZnO-2.94-1.58-113.in
+2025-07-16 12:28:01,516 - INFO - Executing job 6/121: ZnO-2.94-1.61-113.in
+2025-07-16 12:28:01,516 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.61-113.out
+2025-07-16 12:28:01,516 - INFO - Executing QE job: ZnO-2.94-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.61-113.out)
+2025-07-16 12:29:47,478 - INFO - Successfully completed: ZnO-2.94-1.61-113.in
+2025-07-16 12:29:47,478 - INFO - Executing job 7/121: ZnO-2.94-1.65-113.in
+2025-07-16 12:29:47,478 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.65-113.out
+2025-07-16 12:29:47,478 - INFO - Executing QE job: ZnO-2.94-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.65-113.out)
+2025-07-16 12:31:31,999 - INFO - Successfully completed: ZnO-2.94-1.65-113.in
+2025-07-16 12:31:31,999 - INFO - Executing job 8/121: ZnO-2.94-1.68-113.in
+2025-07-16 12:31:31,999 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.68-113.out
+2025-07-16 12:31:32,000 - INFO - Executing QE job: ZnO-2.94-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.68-113.out)
+2025-07-16 12:33:16,646 - INFO - Successfully completed: ZnO-2.94-1.68-113.in
+2025-07-16 12:33:16,646 - INFO - Executing job 9/121: ZnO-2.94-1.71-113.in
+2025-07-16 12:33:16,647 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.71-113.out
+2025-07-16 12:33:16,647 - INFO - Executing QE job: ZnO-2.94-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.71-113.out)
+2025-07-16 12:35:01,854 - INFO - Successfully completed: ZnO-2.94-1.71-113.in
+2025-07-16 12:35:01,854 - INFO - Executing job 10/121: ZnO-2.94-1.74-113.in
+2025-07-16 12:35:01,855 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.74-113.out
+2025-07-16 12:35:01,855 - INFO - Executing QE job: ZnO-2.94-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.74-113.out)
+2025-07-16 12:36:47,221 - INFO - Successfully completed: ZnO-2.94-1.74-113.in
+2025-07-16 12:36:47,221 - INFO - Executing job 11/121: ZnO-2.94-1.78-113.in
+2025-07-16 12:36:47,221 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.78-113.out
+2025-07-16 12:36:47,221 - INFO - Executing QE job: ZnO-2.94-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-2.94-1.78-113.out)
+2025-07-16 12:38:31,953 - INFO - Successfully completed: ZnO-2.94-1.78-113.in
+2025-07-16 12:38:31,953 - INFO - Executing job 12/121: ZnO-3.01-1.45-113.in
+2025-07-16 12:38:31,953 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.45-113.out
+2025-07-16 12:38:31,953 - INFO - Executing QE job: ZnO-3.01-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.45-113.out)
+2025-07-16 12:40:16,842 - INFO - Successfully completed: ZnO-3.01-1.45-113.in
+2025-07-16 12:40:16,842 - INFO - Executing job 13/121: ZnO-3.01-1.49-113.in
+2025-07-16 12:40:16,842 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.49-113.out
+2025-07-16 12:40:16,843 - INFO - Executing QE job: ZnO-3.01-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.49-113.out)
+2025-07-16 12:42:02,005 - INFO - Successfully completed: ZnO-3.01-1.49-113.in
+2025-07-16 12:42:02,005 - INFO - Executing job 14/121: ZnO-3.01-1.52-113.in
+2025-07-16 12:42:02,005 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.52-113.out
+2025-07-16 12:42:02,005 - INFO - Executing QE job: ZnO-3.01-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.52-113.out)
+2025-07-16 12:43:47,139 - INFO - Successfully completed: ZnO-3.01-1.52-113.in
+2025-07-16 12:43:47,139 - INFO - Executing job 15/121: ZnO-3.01-1.55-113.in
+2025-07-16 12:43:47,139 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.55-113.out
+2025-07-16 12:43:47,140 - INFO - Executing QE job: ZnO-3.01-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.55-113.out)
+2025-07-16 12:45:32,075 - INFO - Successfully completed: ZnO-3.01-1.55-113.in
+2025-07-16 12:45:32,075 - INFO - Executing job 16/121: ZnO-3.01-1.58-113.in
+2025-07-16 12:45:32,076 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.58-113.out
+2025-07-16 12:45:32,076 - INFO - Executing QE job: ZnO-3.01-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.58-113.out)
+2025-07-16 12:47:17,033 - INFO - Successfully completed: ZnO-3.01-1.58-113.in
+2025-07-16 12:47:17,033 - INFO - Executing job 17/121: ZnO-3.01-1.61-113.in
+2025-07-16 12:47:17,034 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.61-113.out
+2025-07-16 12:47:17,034 - INFO - Executing QE job: ZnO-3.01-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.61-113.out)
+2025-07-16 12:49:01,771 - INFO - Successfully completed: ZnO-3.01-1.61-113.in
+2025-07-16 12:49:01,771 - INFO - Executing job 18/121: ZnO-3.01-1.65-113.in
+2025-07-16 12:49:01,771 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.65-113.out
+2025-07-16 12:49:01,771 - INFO - Executing QE job: ZnO-3.01-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.65-113.out)
+2025-07-16 12:50:47,415 - INFO - Successfully completed: ZnO-3.01-1.65-113.in
+2025-07-16 12:50:47,416 - INFO - Executing job 19/121: ZnO-3.01-1.68-113.in
+2025-07-16 12:50:47,416 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.68-113.out
+2025-07-16 12:50:47,416 - INFO - Executing QE job: ZnO-3.01-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.68-113.out)
+2025-07-16 12:52:31,930 - INFO - Successfully completed: ZnO-3.01-1.68-113.in
+2025-07-16 12:52:31,930 - INFO - Executing job 20/121: ZnO-3.01-1.71-113.in
+2025-07-16 12:52:31,931 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.71-113.out
+2025-07-16 12:52:31,931 - INFO - Executing QE job: ZnO-3.01-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.71-113.out)
+2025-07-16 12:54:17,406 - INFO - Successfully completed: ZnO-3.01-1.71-113.in
+2025-07-16 12:54:17,407 - INFO - Executing job 21/121: ZnO-3.01-1.74-113.in
+2025-07-16 12:54:17,407 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.74-113.out
+2025-07-16 12:54:17,407 - INFO - Executing QE job: ZnO-3.01-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.74-113.out)
+2025-07-16 12:56:01,946 - INFO - Successfully completed: ZnO-3.01-1.74-113.in
+2025-07-16 12:56:01,946 - INFO - Executing job 22/121: ZnO-3.01-1.78-113.in
+2025-07-16 12:56:01,946 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.78-113.out
+2025-07-16 12:56:01,947 - INFO - Executing QE job: ZnO-3.01-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.01-1.78-113.out)
+2025-07-16 12:57:47,193 - INFO - Successfully completed: ZnO-3.01-1.78-113.in
+2025-07-16 12:57:47,193 - INFO - Executing job 23/121: ZnO-3.07-1.45-113.in
+2025-07-16 12:57:47,194 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.45-113.out
+2025-07-16 12:57:47,194 - INFO - Executing QE job: ZnO-3.07-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.45-113.out)
+2025-07-16 12:59:32,962 - INFO - Successfully completed: ZnO-3.07-1.45-113.in
+2025-07-16 12:59:32,962 - INFO - Executing job 24/121: ZnO-3.07-1.49-113.in
+2025-07-16 12:59:32,963 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.49-113.out
+2025-07-16 12:59:32,963 - INFO - Executing QE job: ZnO-3.07-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.49-113.out)
+2025-07-16 13:01:18,011 - INFO - Successfully completed: ZnO-3.07-1.49-113.in
+2025-07-16 13:01:18,011 - INFO - Executing job 25/121: ZnO-3.07-1.52-113.in
+2025-07-16 13:01:18,011 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.52-113.out
+2025-07-16 13:01:18,011 - INFO - Executing QE job: ZnO-3.07-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.52-113.out)
+2025-07-16 13:03:03,334 - INFO - Successfully completed: ZnO-3.07-1.52-113.in
+2025-07-16 13:03:03,335 - INFO - Executing job 26/121: ZnO-3.07-1.55-113.in
+2025-07-16 13:03:03,335 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.55-113.out
+2025-07-16 13:03:03,335 - INFO - Executing QE job: ZnO-3.07-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.55-113.out)
+2025-07-16 13:04:48,798 - INFO - Successfully completed: ZnO-3.07-1.55-113.in
+2025-07-16 13:04:48,798 - INFO - Executing job 27/121: ZnO-3.07-1.58-113.in
+2025-07-16 13:04:48,798 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.58-113.out
+2025-07-16 13:04:48,798 - INFO - Executing QE job: ZnO-3.07-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.58-113.out)
+2025-07-16 13:06:34,360 - INFO - Successfully completed: ZnO-3.07-1.58-113.in
+2025-07-16 13:06:34,361 - INFO - Executing job 28/121: ZnO-3.07-1.61-113.in
+2025-07-16 13:06:34,361 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.61-113.out
+2025-07-16 13:06:34,361 - INFO - Executing QE job: ZnO-3.07-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.61-113.out)
+2025-07-16 13:08:19,403 - INFO - Successfully completed: ZnO-3.07-1.61-113.in
+2025-07-16 13:08:19,404 - INFO - Executing job 29/121: ZnO-3.07-1.65-113.in
+2025-07-16 13:08:19,404 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.65-113.out
+2025-07-16 13:08:19,404 - INFO - Executing QE job: ZnO-3.07-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.65-113.out)
+2025-07-16 13:10:03,975 - INFO - Successfully completed: ZnO-3.07-1.65-113.in
+2025-07-16 13:10:03,975 - INFO - Executing job 30/121: ZnO-3.07-1.68-113.in
+2025-07-16 13:10:03,976 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.68-113.out
+2025-07-16 13:10:03,976 - INFO - Executing QE job: ZnO-3.07-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.68-113.out)
+2025-07-16 13:11:49,206 - INFO - Successfully completed: ZnO-3.07-1.68-113.in
+2025-07-16 13:11:49,207 - INFO - Executing job 31/121: ZnO-3.07-1.71-113.in
+2025-07-16 13:11:49,207 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.71-113.out
+2025-07-16 13:11:49,207 - INFO - Executing QE job: ZnO-3.07-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.71-113.out)
+2025-07-16 13:13:34,309 - INFO - Successfully completed: ZnO-3.07-1.71-113.in
+2025-07-16 13:13:34,309 - INFO - Executing job 32/121: ZnO-3.07-1.74-113.in
+2025-07-16 13:13:34,309 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.74-113.out
+2025-07-16 13:13:34,310 - INFO - Executing QE job: ZnO-3.07-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.74-113.out)
+2025-07-16 13:15:19,403 - INFO - Successfully completed: ZnO-3.07-1.74-113.in
+2025-07-16 13:15:19,403 - INFO - Executing job 33/121: ZnO-3.07-1.78-113.in
+2025-07-16 13:15:19,403 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.78-113.out
+2025-07-16 13:15:19,403 - INFO - Executing QE job: ZnO-3.07-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.07-1.78-113.out)
+2025-07-16 13:17:04,378 - INFO - Successfully completed: ZnO-3.07-1.78-113.in
+2025-07-16 13:17:04,378 - INFO - Executing job 34/121: ZnO-3.14-1.45-113.in
+2025-07-16 13:17:04,379 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.45-113.out
+2025-07-16 13:17:04,379 - INFO - Executing QE job: ZnO-3.14-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.45-113.out)
+2025-07-16 13:18:49,060 - INFO - Successfully completed: ZnO-3.14-1.45-113.in
+2025-07-16 13:18:49,060 - INFO - Executing job 35/121: ZnO-3.14-1.49-113.in
+2025-07-16 13:18:49,061 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.49-113.out
+2025-07-16 13:18:49,061 - INFO - Executing QE job: ZnO-3.14-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.49-113.out)
+2025-07-16 13:20:33,547 - INFO - Successfully completed: ZnO-3.14-1.49-113.in
+2025-07-16 13:20:33,547 - INFO - Executing job 36/121: ZnO-3.14-1.52-113.in
+2025-07-16 13:20:33,547 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.52-113.out
+2025-07-16 13:20:33,548 - INFO - Executing QE job: ZnO-3.14-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.52-113.out)
+2025-07-16 13:22:18,516 - INFO - Successfully completed: ZnO-3.14-1.52-113.in
+2025-07-16 13:22:18,517 - INFO - Executing job 37/121: ZnO-3.14-1.55-113.in
+2025-07-16 13:22:18,517 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.55-113.out
+2025-07-16 13:22:18,517 - INFO - Executing QE job: ZnO-3.14-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.55-113.out)
+2025-07-16 13:24:03,403 - INFO - Successfully completed: ZnO-3.14-1.55-113.in
+2025-07-16 13:24:03,403 - INFO - Executing job 38/121: ZnO-3.14-1.58-113.in
+2025-07-16 13:24:03,404 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.58-113.out
+2025-07-16 13:24:03,404 - INFO - Executing QE job: ZnO-3.14-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.58-113.out)
+2025-07-16 13:25:48,373 - INFO - Successfully completed: ZnO-3.14-1.58-113.in
+2025-07-16 13:25:48,373 - INFO - Executing job 39/121: ZnO-3.14-1.61-113.in
+2025-07-16 13:25:48,373 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.61-113.out
+2025-07-16 13:25:48,373 - INFO - Executing QE job: ZnO-3.14-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.61-113.out)
+2025-07-16 13:27:33,319 - INFO - Successfully completed: ZnO-3.14-1.61-113.in
+2025-07-16 13:27:33,319 - INFO - Executing job 40/121: ZnO-3.14-1.65-113.in
+2025-07-16 13:27:33,320 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.65-113.out
+2025-07-16 13:27:33,320 - INFO - Executing QE job: ZnO-3.14-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.65-113.out)
+2025-07-16 13:29:18,394 - INFO - Successfully completed: ZnO-3.14-1.65-113.in
+2025-07-16 13:29:18,395 - INFO - Executing job 41/121: ZnO-3.14-1.68-113.in
+2025-07-16 13:29:18,395 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.68-113.out
+2025-07-16 13:29:18,395 - INFO - Executing QE job: ZnO-3.14-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.68-113.out)
+2025-07-16 13:31:03,334 - INFO - Successfully completed: ZnO-3.14-1.68-113.in
+2025-07-16 13:31:03,334 - INFO - Executing job 42/121: ZnO-3.14-1.71-113.in
+2025-07-16 13:31:03,335 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.71-113.out
+2025-07-16 13:31:03,335 - INFO - Executing QE job: ZnO-3.14-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.71-113.out)
+2025-07-16 13:32:48,197 - INFO - Successfully completed: ZnO-3.14-1.71-113.in
+2025-07-16 13:32:48,197 - INFO - Executing job 43/121: ZnO-3.14-1.74-113.in
+2025-07-16 13:32:48,198 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.74-113.out
+2025-07-16 13:32:48,198 - INFO - Executing QE job: ZnO-3.14-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.74-113.out)
+2025-07-16 13:34:33,104 - INFO - Successfully completed: ZnO-3.14-1.74-113.in
+2025-07-16 13:34:33,104 - INFO - Executing job 44/121: ZnO-3.14-1.78-113.in
+2025-07-16 13:34:33,105 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.78-113.out
+2025-07-16 13:34:33,105 - INFO - Executing QE job: ZnO-3.14-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.14-1.78-113.out)
+2025-07-16 13:36:18,457 - INFO - Successfully completed: ZnO-3.14-1.78-113.in
+2025-07-16 13:36:18,457 - INFO - Executing job 45/121: ZnO-3.20-1.45-113.in
+2025-07-16 13:36:18,458 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.45-113.out
+2025-07-16 13:36:18,458 - INFO - Executing QE job: ZnO-3.20-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.45-113.out)
+2025-07-16 13:38:03,612 - INFO - Successfully completed: ZnO-3.20-1.45-113.in
+2025-07-16 13:38:03,613 - INFO - Executing job 46/121: ZnO-3.20-1.49-113.in
+2025-07-16 13:38:03,613 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.49-113.out
+2025-07-16 13:38:03,613 - INFO - Executing QE job: ZnO-3.20-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.49-113.out)
+2025-07-16 13:39:48,570 - INFO - Successfully completed: ZnO-3.20-1.49-113.in
+2025-07-16 13:39:48,571 - INFO - Executing job 47/121: ZnO-3.20-1.52-113.in
+2025-07-16 13:39:48,571 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.52-113.out
+2025-07-16 13:39:48,571 - INFO - Executing QE job: ZnO-3.20-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.52-113.out)
+2025-07-16 13:41:33,831 - INFO - Successfully completed: ZnO-3.20-1.52-113.in
+2025-07-16 13:41:33,832 - INFO - Executing job 48/121: ZnO-3.20-1.55-113.in
+2025-07-16 13:41:33,832 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.55-113.out
+2025-07-16 13:41:33,832 - INFO - Executing QE job: ZnO-3.20-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.55-113.out)
+2025-07-16 13:43:19,375 - INFO - Successfully completed: ZnO-3.20-1.55-113.in
+2025-07-16 13:43:19,376 - INFO - Executing job 49/121: ZnO-3.20-1.58-113.in
+2025-07-16 13:43:19,376 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.58-113.out
+2025-07-16 13:43:19,376 - INFO - Executing QE job: ZnO-3.20-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.58-113.out)
+2025-07-16 13:45:04,286 - INFO - Successfully completed: ZnO-3.20-1.58-113.in
+2025-07-16 13:45:04,286 - INFO - Executing job 50/121: ZnO-3.20-1.61-113.in
+2025-07-16 13:45:04,287 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.61-113.out
+2025-07-16 13:45:04,287 - INFO - Executing QE job: ZnO-3.20-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.61-113.out)
+2025-07-16 13:46:49,017 - INFO - Successfully completed: ZnO-3.20-1.61-113.in
+2025-07-16 13:46:49,017 - INFO - Executing job 51/121: ZnO-3.20-1.65-113.in
+2025-07-16 13:46:49,017 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.65-113.out
+2025-07-16 13:46:49,017 - INFO - Executing QE job: ZnO-3.20-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.65-113.out)
+2025-07-16 13:48:34,415 - INFO - Successfully completed: ZnO-3.20-1.65-113.in
+2025-07-16 13:48:34,415 - INFO - Executing job 52/121: ZnO-3.20-1.68-113.in
+2025-07-16 13:48:34,416 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.68-113.out
+2025-07-16 13:48:34,416 - INFO - Executing QE job: ZnO-3.20-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.68-113.out)
+2025-07-16 13:50:19,700 - INFO - Successfully completed: ZnO-3.20-1.68-113.in
+2025-07-16 13:50:19,701 - INFO - Executing job 53/121: ZnO-3.20-1.71-113.in
+2025-07-16 13:50:19,701 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.71-113.out
+2025-07-16 13:50:19,701 - INFO - Executing QE job: ZnO-3.20-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.71-113.out)
+2025-07-16 13:52:05,001 - INFO - Successfully completed: ZnO-3.20-1.71-113.in
+2025-07-16 13:52:05,001 - INFO - Executing job 54/121: ZnO-3.20-1.74-113.in
+2025-07-16 13:52:05,001 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.74-113.out
+2025-07-16 13:52:05,001 - INFO - Executing QE job: ZnO-3.20-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.74-113.out)
+2025-07-16 13:53:49,514 - INFO - Successfully completed: ZnO-3.20-1.74-113.in
+2025-07-16 13:53:49,515 - INFO - Executing job 55/121: ZnO-3.20-1.78-113.in
+2025-07-16 13:53:49,515 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.78-113.out
+2025-07-16 13:53:49,515 - INFO - Executing QE job: ZnO-3.20-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.20-1.78-113.out)
+2025-07-16 13:55:34,711 - INFO - Successfully completed: ZnO-3.20-1.78-113.in
+2025-07-16 13:55:34,712 - INFO - Executing job 56/121: ZnO-3.27-1.45-113.in
+2025-07-16 13:55:34,712 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.45-113.out
+2025-07-16 13:55:34,712 - INFO - Executing QE job: ZnO-3.27-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.45-113.out)
+2025-07-16 13:57:19,921 - INFO - Successfully completed: ZnO-3.27-1.45-113.in
+2025-07-16 13:57:19,921 - INFO - Executing job 57/121: ZnO-3.27-1.49-113.in
+2025-07-16 13:57:19,922 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.49-113.out
+2025-07-16 13:57:19,922 - INFO - Executing QE job: ZnO-3.27-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.49-113.out)
+2025-07-16 13:59:05,143 - INFO - Successfully completed: ZnO-3.27-1.49-113.in
+2025-07-16 13:59:05,143 - INFO - Executing job 58/121: ZnO-3.27-1.52-113.in
+2025-07-16 13:59:05,143 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.52-113.out
+2025-07-16 13:59:05,144 - INFO - Executing QE job: ZnO-3.27-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.52-113.out)
+2025-07-16 14:00:50,342 - INFO - Successfully completed: ZnO-3.27-1.52-113.in
+2025-07-16 14:00:50,342 - INFO - Executing job 59/121: ZnO-3.27-1.55-113.in
+2025-07-16 14:00:50,342 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.55-113.out
+2025-07-16 14:00:50,343 - INFO - Executing QE job: ZnO-3.27-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.55-113.out)
+2025-07-16 14:02:35,486 - INFO - Successfully completed: ZnO-3.27-1.55-113.in
+2025-07-16 14:02:35,487 - INFO - Executing job 60/121: ZnO-3.27-1.58-113.in
+2025-07-16 14:02:35,487 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.58-113.out
+2025-07-16 14:02:35,487 - INFO - Executing QE job: ZnO-3.27-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.58-113.out)
+2025-07-16 14:04:20,552 - INFO - Successfully completed: ZnO-3.27-1.58-113.in
+2025-07-16 14:04:20,553 - INFO - Executing job 61/121: ZnO-3.27-1.61-113.in
+2025-07-16 14:04:20,553 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.61-113.out
+2025-07-16 14:04:20,553 - INFO - Executing QE job: ZnO-3.27-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.61-113.out)
+2025-07-16 14:06:05,609 - INFO - Successfully completed: ZnO-3.27-1.61-113.in
+2025-07-16 14:06:05,609 - INFO - Executing job 62/121: ZnO-3.27-1.65-113.in
+2025-07-16 14:06:05,609 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.65-113.out
+2025-07-16 14:06:05,609 - INFO - Executing QE job: ZnO-3.27-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.65-113.out)
+2025-07-16 14:07:50,610 - INFO - Successfully completed: ZnO-3.27-1.65-113.in
+2025-07-16 14:07:50,610 - INFO - Executing job 63/121: ZnO-3.27-1.68-113.in
+2025-07-16 14:07:50,610 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.68-113.out
+2025-07-16 14:07:50,610 - INFO - Executing QE job: ZnO-3.27-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.68-113.out)
+2025-07-16 14:09:35,132 - INFO - Successfully completed: ZnO-3.27-1.68-113.in
+2025-07-16 14:09:35,132 - INFO - Executing job 64/121: ZnO-3.27-1.71-113.in
+2025-07-16 14:09:35,132 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.71-113.out
+2025-07-16 14:09:35,133 - INFO - Executing QE job: ZnO-3.27-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.71-113.out)
+2025-07-16 14:11:19,966 - INFO - Successfully completed: ZnO-3.27-1.71-113.in
+2025-07-16 14:11:19,967 - INFO - Executing job 65/121: ZnO-3.27-1.74-113.in
+2025-07-16 14:11:19,967 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.74-113.out
+2025-07-16 14:11:19,967 - INFO - Executing QE job: ZnO-3.27-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.74-113.out)
+2025-07-16 14:13:05,209 - INFO - Successfully completed: ZnO-3.27-1.74-113.in
+2025-07-16 14:13:05,209 - INFO - Executing job 66/121: ZnO-3.27-1.78-113.in
+2025-07-16 14:13:05,210 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.78-113.out
+2025-07-16 14:13:05,210 - INFO - Executing QE job: ZnO-3.27-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.27-1.78-113.out)
+2025-07-16 14:14:49,952 - INFO - Successfully completed: ZnO-3.27-1.78-113.in
+2025-07-16 14:14:49,953 - INFO - Executing job 67/121: ZnO-3.34-1.45-113.in
+2025-07-16 14:14:49,953 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.45-113.out
+2025-07-16 14:14:49,953 - INFO - Executing QE job: ZnO-3.34-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.45-113.out)
+2025-07-16 14:16:34,974 - INFO - Successfully completed: ZnO-3.34-1.45-113.in
+2025-07-16 14:16:34,975 - INFO - Executing job 68/121: ZnO-3.34-1.49-113.in
+2025-07-16 14:16:34,975 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.49-113.out
+2025-07-16 14:16:34,975 - INFO - Executing QE job: ZnO-3.34-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.49-113.out)
+2025-07-16 14:18:20,660 - INFO - Successfully completed: ZnO-3.34-1.49-113.in
+2025-07-16 14:18:20,661 - INFO - Executing job 69/121: ZnO-3.34-1.52-113.in
+2025-07-16 14:18:20,661 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.52-113.out
+2025-07-16 14:18:20,661 - INFO - Executing QE job: ZnO-3.34-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.52-113.out)
+2025-07-16 14:20:05,780 - INFO - Successfully completed: ZnO-3.34-1.52-113.in
+2025-07-16 14:20:05,781 - INFO - Executing job 70/121: ZnO-3.34-1.55-113.in
+2025-07-16 14:20:05,781 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.55-113.out
+2025-07-16 14:20:05,781 - INFO - Executing QE job: ZnO-3.34-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.55-113.out)
+2025-07-16 14:21:50,554 - INFO - Successfully completed: ZnO-3.34-1.55-113.in
+2025-07-16 14:21:50,554 - INFO - Executing job 71/121: ZnO-3.34-1.58-113.in
+2025-07-16 14:21:50,554 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.58-113.out
+2025-07-16 14:21:50,554 - INFO - Executing QE job: ZnO-3.34-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.58-113.out)
+2025-07-16 14:23:35,465 - INFO - Successfully completed: ZnO-3.34-1.58-113.in
+2025-07-16 14:23:35,466 - INFO - Executing job 72/121: ZnO-3.34-1.61-113.in
+2025-07-16 14:23:35,466 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.61-113.out
+2025-07-16 14:23:35,466 - INFO - Executing QE job: ZnO-3.34-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.61-113.out)
+2025-07-16 14:25:20,095 - INFO - Successfully completed: ZnO-3.34-1.61-113.in
+2025-07-16 14:25:20,096 - INFO - Executing job 73/121: ZnO-3.34-1.65-113.in
+2025-07-16 14:25:20,096 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.65-113.out
+2025-07-16 14:25:20,096 - INFO - Executing QE job: ZnO-3.34-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.65-113.out)
+2025-07-16 14:27:05,230 - INFO - Successfully completed: ZnO-3.34-1.65-113.in
+2025-07-16 14:27:05,230 - INFO - Executing job 74/121: ZnO-3.34-1.68-113.in
+2025-07-16 14:27:05,230 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.68-113.out
+2025-07-16 14:27:05,231 - INFO - Executing QE job: ZnO-3.34-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.68-113.out)
+2025-07-16 14:28:49,910 - INFO - Successfully completed: ZnO-3.34-1.68-113.in
+2025-07-16 14:28:49,911 - INFO - Executing job 75/121: ZnO-3.34-1.71-113.in
+2025-07-16 14:28:49,911 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.71-113.out
+2025-07-16 14:28:49,911 - INFO - Executing QE job: ZnO-3.34-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.71-113.out)
+2025-07-16 14:30:35,286 - INFO - Successfully completed: ZnO-3.34-1.71-113.in
+2025-07-16 14:30:35,287 - INFO - Executing job 76/121: ZnO-3.34-1.74-113.in
+2025-07-16 14:30:35,287 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.74-113.out
+2025-07-16 14:30:35,287 - INFO - Executing QE job: ZnO-3.34-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.74-113.out)
+2025-07-16 14:32:20,114 - INFO - Successfully completed: ZnO-3.34-1.74-113.in
+2025-07-16 14:32:20,114 - INFO - Executing job 77/121: ZnO-3.34-1.78-113.in
+2025-07-16 14:32:20,114 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.78-113.out
+2025-07-16 14:32:20,115 - INFO - Executing QE job: ZnO-3.34-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.34-1.78-113.out)
+2025-07-16 14:34:05,416 - INFO - Successfully completed: ZnO-3.34-1.78-113.in
+2025-07-16 14:34:05,417 - INFO - Executing job 78/121: ZnO-3.40-1.45-113.in
+2025-07-16 14:34:05,417 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.45-113.out
+2025-07-16 14:34:05,417 - INFO - Executing QE job: ZnO-3.40-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.45-113.out)
+2025-07-16 14:35:50,221 - INFO - Successfully completed: ZnO-3.40-1.45-113.in
+2025-07-16 14:35:50,221 - INFO - Executing job 79/121: ZnO-3.40-1.49-113.in
+2025-07-16 14:35:50,221 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.49-113.out
+2025-07-16 14:35:50,221 - INFO - Executing QE job: ZnO-3.40-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.49-113.out)
+2025-07-16 14:37:35,318 - INFO - Successfully completed: ZnO-3.40-1.49-113.in
+2025-07-16 14:37:35,318 - INFO - Executing job 80/121: ZnO-3.40-1.52-113.in
+2025-07-16 14:37:35,319 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.52-113.out
+2025-07-16 14:37:35,319 - INFO - Executing QE job: ZnO-3.40-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.52-113.out)
+2025-07-16 14:39:19,765 - INFO - Successfully completed: ZnO-3.40-1.52-113.in
+2025-07-16 14:39:19,766 - INFO - Executing job 81/121: ZnO-3.40-1.55-113.in
+2025-07-16 14:39:19,766 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.55-113.out
+2025-07-16 14:39:19,766 - INFO - Executing QE job: ZnO-3.40-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.55-113.out)
+2025-07-16 14:41:04,993 - INFO - Successfully completed: ZnO-3.40-1.55-113.in
+2025-07-16 14:41:04,994 - INFO - Executing job 82/121: ZnO-3.40-1.58-113.in
+2025-07-16 14:41:04,994 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.58-113.out
+2025-07-16 14:41:04,994 - INFO - Executing QE job: ZnO-3.40-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.58-113.out)
+2025-07-16 14:42:50,210 - INFO - Successfully completed: ZnO-3.40-1.58-113.in
+2025-07-16 14:42:50,210 - INFO - Executing job 83/121: ZnO-3.40-1.61-113.in
+2025-07-16 14:42:50,211 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.61-113.out
+2025-07-16 14:42:50,211 - INFO - Executing QE job: ZnO-3.40-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.61-113.out)
+2025-07-16 14:44:35,088 - INFO - Successfully completed: ZnO-3.40-1.61-113.in
+2025-07-16 14:44:35,088 - INFO - Executing job 84/121: ZnO-3.40-1.65-113.in
+2025-07-16 14:44:35,089 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.65-113.out
+2025-07-16 14:44:35,089 - INFO - Executing QE job: ZnO-3.40-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.65-113.out)
+2025-07-16 14:46:19,909 - INFO - Successfully completed: ZnO-3.40-1.65-113.in
+2025-07-16 14:46:19,910 - INFO - Executing job 85/121: ZnO-3.40-1.68-113.in
+2025-07-16 14:46:19,910 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.68-113.out
+2025-07-16 14:46:19,910 - INFO - Executing QE job: ZnO-3.40-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.68-113.out)
+2025-07-16 14:48:04,697 - INFO - Successfully completed: ZnO-3.40-1.68-113.in
+2025-07-16 14:48:04,698 - INFO - Executing job 86/121: ZnO-3.40-1.71-113.in
+2025-07-16 14:48:04,698 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.71-113.out
+2025-07-16 14:48:04,698 - INFO - Executing QE job: ZnO-3.40-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.71-113.out)
+2025-07-16 14:49:49,528 - INFO - Successfully completed: ZnO-3.40-1.71-113.in
+2025-07-16 14:49:49,529 - INFO - Executing job 87/121: ZnO-3.40-1.74-113.in
+2025-07-16 14:49:49,529 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.74-113.out
+2025-07-16 14:49:49,529 - INFO - Executing QE job: ZnO-3.40-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.74-113.out)
+2025-07-16 14:51:35,013 - INFO - Successfully completed: ZnO-3.40-1.74-113.in
+2025-07-16 14:51:35,014 - INFO - Executing job 88/121: ZnO-3.40-1.78-113.in
+2025-07-16 14:51:35,014 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.78-113.out
+2025-07-16 14:51:35,014 - INFO - Executing QE job: ZnO-3.40-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.40-1.78-113.out)
+2025-07-16 14:53:20,234 - INFO - Successfully completed: ZnO-3.40-1.78-113.in
+2025-07-16 14:53:20,234 - INFO - Executing job 89/121: ZnO-3.47-1.45-113.in
+2025-07-16 14:53:20,234 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.45-113.out
+2025-07-16 14:53:20,235 - INFO - Executing QE job: ZnO-3.47-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.45-113.out)
+2025-07-16 14:55:05,537 - INFO - Successfully completed: ZnO-3.47-1.45-113.in
+2025-07-16 14:55:05,537 - INFO - Executing job 90/121: ZnO-3.47-1.49-113.in
+2025-07-16 14:55:05,537 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.49-113.out
+2025-07-16 14:55:05,538 - INFO - Executing QE job: ZnO-3.47-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.49-113.out)
+2025-07-16 14:56:50,964 - INFO - Successfully completed: ZnO-3.47-1.49-113.in
+2025-07-16 14:56:50,964 - INFO - Executing job 91/121: ZnO-3.47-1.52-113.in
+2025-07-16 14:56:50,964 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.52-113.out
+2025-07-16 14:56:50,964 - INFO - Executing QE job: ZnO-3.47-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.52-113.out)
+2025-07-16 14:58:35,782 - INFO - Successfully completed: ZnO-3.47-1.52-113.in
+2025-07-16 14:58:35,782 - INFO - Executing job 92/121: ZnO-3.47-1.55-113.in
+2025-07-16 14:58:35,783 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.55-113.out
+2025-07-16 14:58:35,783 - INFO - Executing QE job: ZnO-3.47-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.55-113.out)
+2025-07-16 15:00:20,970 - INFO - Successfully completed: ZnO-3.47-1.55-113.in
+2025-07-16 15:00:20,970 - INFO - Executing job 93/121: ZnO-3.47-1.58-113.in
+2025-07-16 15:00:20,971 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.58-113.out
+2025-07-16 15:00:20,971 - INFO - Executing QE job: ZnO-3.47-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.58-113.out)
+2025-07-16 15:02:05,716 - INFO - Successfully completed: ZnO-3.47-1.58-113.in
+2025-07-16 15:02:05,717 - INFO - Executing job 94/121: ZnO-3.47-1.61-113.in
+2025-07-16 15:02:05,717 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.61-113.out
+2025-07-16 15:02:05,717 - INFO - Executing QE job: ZnO-3.47-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.61-113.out)
+2025-07-16 15:03:50,709 - INFO - Successfully completed: ZnO-3.47-1.61-113.in
+2025-07-16 15:03:50,709 - INFO - Executing job 95/121: ZnO-3.47-1.65-113.in
+2025-07-16 15:03:50,709 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.65-113.out
+2025-07-16 15:03:50,710 - INFO - Executing QE job: ZnO-3.47-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.65-113.out)
+2025-07-16 15:05:35,777 - INFO - Successfully completed: ZnO-3.47-1.65-113.in
+2025-07-16 15:05:35,777 - INFO - Executing job 96/121: ZnO-3.47-1.68-113.in
+2025-07-16 15:05:35,777 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.68-113.out
+2025-07-16 15:05:35,778 - INFO - Executing QE job: ZnO-3.47-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.68-113.out)
+2025-07-16 15:07:22,165 - INFO - Successfully completed: ZnO-3.47-1.68-113.in
+2025-07-16 15:07:22,165 - INFO - Executing job 97/121: ZnO-3.47-1.71-113.in
+2025-07-16 15:07:22,166 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.71-113.out
+2025-07-16 15:07:22,166 - INFO - Executing QE job: ZnO-3.47-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.71-113.out)
+2025-07-16 15:09:08,270 - INFO - Successfully completed: ZnO-3.47-1.71-113.in
+2025-07-16 15:09:08,270 - INFO - Executing job 98/121: ZnO-3.47-1.74-113.in
+2025-07-16 15:09:08,271 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.74-113.out
+2025-07-16 15:09:08,271 - INFO - Executing QE job: ZnO-3.47-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.74-113.out)
+2025-07-16 15:10:53,446 - INFO - Successfully completed: ZnO-3.47-1.74-113.in
+2025-07-16 15:10:53,446 - INFO - Executing job 99/121: ZnO-3.47-1.78-113.in
+2025-07-16 15:10:53,446 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.78-113.out
+2025-07-16 15:10:53,447 - INFO - Executing QE job: ZnO-3.47-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.47-1.78-113.out)
+2025-07-16 15:12:38,778 - INFO - Successfully completed: ZnO-3.47-1.78-113.in
+2025-07-16 15:12:38,779 - INFO - Executing job 100/121: ZnO-3.53-1.45-113.in
+2025-07-16 15:12:38,779 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.45-113.out
+2025-07-16 15:12:38,779 - INFO - Executing QE job: ZnO-3.53-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.45-113.out)
+2025-07-16 15:14:24,700 - INFO - Successfully completed: ZnO-3.53-1.45-113.in
+2025-07-16 15:14:24,701 - INFO - Executing job 101/121: ZnO-3.53-1.49-113.in
+2025-07-16 15:14:24,701 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.49-113.out
+2025-07-16 15:14:24,701 - INFO - Executing QE job: ZnO-3.53-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.49-113.out)
+2025-07-16 15:16:10,343 - INFO - Successfully completed: ZnO-3.53-1.49-113.in
+2025-07-16 15:16:10,344 - INFO - Executing job 102/121: ZnO-3.53-1.52-113.in
+2025-07-16 15:16:10,344 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.52-113.out
+2025-07-16 15:16:10,344 - INFO - Executing QE job: ZnO-3.53-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.52-113.out)
+2025-07-16 15:17:55,129 - INFO - Successfully completed: ZnO-3.53-1.52-113.in
+2025-07-16 15:17:55,130 - INFO - Executing job 103/121: ZnO-3.53-1.55-113.in
+2025-07-16 15:17:55,130 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.55-113.out
+2025-07-16 15:17:55,130 - INFO - Executing QE job: ZnO-3.53-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.55-113.out)
+2025-07-16 15:19:39,697 - INFO - Successfully completed: ZnO-3.53-1.55-113.in
+2025-07-16 15:19:39,698 - INFO - Executing job 104/121: ZnO-3.53-1.58-113.in
+2025-07-16 15:19:39,698 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.58-113.out
+2025-07-16 15:19:39,698 - INFO - Executing QE job: ZnO-3.53-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.58-113.out)
+2025-07-16 15:21:24,307 - INFO - Successfully completed: ZnO-3.53-1.58-113.in
+2025-07-16 15:21:24,308 - INFO - Executing job 105/121: ZnO-3.53-1.61-113.in
+2025-07-16 15:21:24,308 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.61-113.out
+2025-07-16 15:21:24,308 - INFO - Executing QE job: ZnO-3.53-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.61-113.out)
+2025-07-16 15:23:09,650 - INFO - Successfully completed: ZnO-3.53-1.61-113.in
+2025-07-16 15:23:09,650 - INFO - Executing job 106/121: ZnO-3.53-1.65-113.in
+2025-07-16 15:23:09,651 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.65-113.out
+2025-07-16 15:23:09,651 - INFO - Executing QE job: ZnO-3.53-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.65-113.out)
+2025-07-16 15:24:54,442 - INFO - Successfully completed: ZnO-3.53-1.65-113.in
+2025-07-16 15:24:54,442 - INFO - Executing job 107/121: ZnO-3.53-1.68-113.in
+2025-07-16 15:24:54,443 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.68-113.out
+2025-07-16 15:24:54,443 - INFO - Executing QE job: ZnO-3.53-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.68-113.out)
+2025-07-16 15:26:39,798 - INFO - Successfully completed: ZnO-3.53-1.68-113.in
+2025-07-16 15:26:39,798 - INFO - Executing job 108/121: ZnO-3.53-1.71-113.in
+2025-07-16 15:26:39,799 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.71-113.out
+2025-07-16 15:26:39,799 - INFO - Executing QE job: ZnO-3.53-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.71-113.out)
+2025-07-16 15:28:24,883 - INFO - Successfully completed: ZnO-3.53-1.71-113.in
+2025-07-16 15:28:24,884 - INFO - Executing job 109/121: ZnO-3.53-1.74-113.in
+2025-07-16 15:28:24,884 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.74-113.out
+2025-07-16 15:28:24,884 - INFO - Executing QE job: ZnO-3.53-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.74-113.out)
+2025-07-16 15:30:09,824 - INFO - Successfully completed: ZnO-3.53-1.74-113.in
+2025-07-16 15:30:09,825 - INFO - Executing job 110/121: ZnO-3.53-1.78-113.in
+2025-07-16 15:30:09,825 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.78-113.out
+2025-07-16 15:30:09,825 - INFO - Executing QE job: ZnO-3.53-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.53-1.78-113.out)
+2025-07-16 15:31:54,714 - INFO - Successfully completed: ZnO-3.53-1.78-113.in
+2025-07-16 15:31:54,714 - INFO - Executing job 111/121: ZnO-3.60-1.45-113.in
+2025-07-16 15:31:54,714 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.45-113.out
+2025-07-16 15:31:54,714 - INFO - Executing QE job: ZnO-3.60-1.45-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.45-113.out)
+2025-07-16 15:33:40,425 - INFO - Successfully completed: ZnO-3.60-1.45-113.in
+2025-07-16 15:33:40,425 - INFO - Executing job 112/121: ZnO-3.60-1.49-113.in
+2025-07-16 15:33:40,425 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.49-113.out
+2025-07-16 15:33:40,425 - INFO - Executing QE job: ZnO-3.60-1.49-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.49-113.out)
+2025-07-16 15:35:25,492 - INFO - Successfully completed: ZnO-3.60-1.49-113.in
+2025-07-16 15:35:25,492 - INFO - Executing job 113/121: ZnO-3.60-1.52-113.in
+2025-07-16 15:35:25,493 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.52-113.out
+2025-07-16 15:35:25,493 - INFO - Executing QE job: ZnO-3.60-1.52-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.52-113.out)
+2025-07-16 15:37:10,853 - INFO - Successfully completed: ZnO-3.60-1.52-113.in
+2025-07-16 15:37:10,854 - INFO - Executing job 114/121: ZnO-3.60-1.55-113.in
+2025-07-16 15:37:10,854 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.55-113.out
+2025-07-16 15:37:10,854 - INFO - Executing QE job: ZnO-3.60-1.55-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.55-113.out)
+2025-07-16 15:38:56,051 - INFO - Successfully completed: ZnO-3.60-1.55-113.in
+2025-07-16 15:38:56,051 - INFO - Executing job 115/121: ZnO-3.60-1.58-113.in
+2025-07-16 15:38:56,052 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.58-113.out
+2025-07-16 15:38:56,052 - INFO - Executing QE job: ZnO-3.60-1.58-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.58-113.out)
+2025-07-16 15:40:40,853 - INFO - Successfully completed: ZnO-3.60-1.58-113.in
+2025-07-16 15:40:40,854 - INFO - Executing job 116/121: ZnO-3.60-1.61-113.in
+2025-07-16 15:40:40,854 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.61-113.out
+2025-07-16 15:40:40,854 - INFO - Executing QE job: ZnO-3.60-1.61-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.61-113.out)
+2025-07-16 15:42:25,745 - INFO - Successfully completed: ZnO-3.60-1.61-113.in
+2025-07-16 15:42:25,745 - INFO - Executing job 117/121: ZnO-3.60-1.65-113.in
+2025-07-16 15:42:25,745 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.65-113.out
+2025-07-16 15:42:25,745 - INFO - Executing QE job: ZnO-3.60-1.65-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.65-113.out)
+2025-07-16 15:44:11,277 - INFO - Successfully completed: ZnO-3.60-1.65-113.in
+2025-07-16 15:44:11,277 - INFO - Executing job 118/121: ZnO-3.60-1.68-113.in
+2025-07-16 15:44:11,277 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.68-113.out
+2025-07-16 15:44:11,278 - INFO - Executing QE job: ZnO-3.60-1.68-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.68-113.out)
+2025-07-16 15:45:56,319 - INFO - Successfully completed: ZnO-3.60-1.68-113.in
+2025-07-16 15:45:56,320 - INFO - Executing job 119/121: ZnO-3.60-1.71-113.in
+2025-07-16 15:45:56,320 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.71-113.out
+2025-07-16 15:45:56,320 - INFO - Executing QE job: ZnO-3.60-1.71-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.71-113.out)
+2025-07-16 15:47:41,953 - INFO - Successfully completed: ZnO-3.60-1.71-113.in
+2025-07-16 15:47:41,953 - INFO - Executing job 120/121: ZnO-3.60-1.74-113.in
+2025-07-16 15:47:41,953 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.74-113.out
+2025-07-16 15:47:41,954 - INFO - Executing QE job: ZnO-3.60-1.74-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.74-113.out)
+2025-07-16 15:49:26,689 - INFO - Successfully completed: ZnO-3.60-1.74-113.in
+2025-07-16 15:49:26,689 - INFO - Executing job 121/121: ZnO-3.60-1.78-113.in
+2025-07-16 15:49:26,689 - INFO - Output will be saved to: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.78-113.out
+2025-07-16 15:49:26,689 - INFO - Executing QE job: ZnO-3.60-1.78-113.in (Output: /home/jvc/QEspresso7.2/ZnO_database/scripts/cell113.out/ZnO-3.60-1.78-113.out)
+2025-07-16 15:51:11,561 - INFO - Successfully completed: ZnO-3.60-1.78-113.in
+2025-07-16 15:51:11,561 - INFO - All QE jobs completed.

@@ -9,6 +9,7 @@ from ase.build import make_supercell
 from ase.io.espresso import write_espresso_in
 
 
+
 def make_pw_input_from_existing_in(input_file_path: str, a: float, covera: float, cellsize: Tuple[int, int, int]):
     """
    Create a supercell input file for Quantum ESPRESSO based on an existing input file.
@@ -70,7 +71,8 @@ def make_pw_input_from_existing_in(input_file_path: str, a: float, covera: float
 
     # Write the input file using ASE's espresso interface
     write_espresso_in(
-        file = os.path.join(cell_dirname, input_name),
+        #file = os.path.join(cell_dirname, input_name), # One folder per supercell
+        file = input_name, # If you want to write in the current directory
         atoms = supercell,
         input_data = HEADER_INPUT,
         pseudopotentials = PSEUDOS,
@@ -94,16 +96,23 @@ c_values = CELLDM3 * (1 + percent_range)
 
 
 if  __name__ == "__main__":
-    template_path = 'ZnO_template.in'  # Path to the template input file
+    # Path to the template input file - get 1x1x1 atoms structure for ASE.
+    template_path = 'ZnO_template.in'  
+   
+   # (1,1,1) to (3,3,3) supercells
+    #for nx in range(1, 4):  
+    #    for ny in range(1, 4):  
+    #        for nz in range(1, 4):
+    #            make_pw_input_from_existing_in(input_file_path=template_path,
+    #                a=CELLDM1_Angstroms,
+    #                covera=CELLDM3,
+    #                cellsize=(nx, ny, nz) )
     
+    # ================ STRAIN =================== #
+    for a in a_values:
+        for covera in c_values:
+            make_pw_input_from_existing_in(input_file_path=template_path,
+                a=a,
+                covera=covera,
+                cellsize=(1, 1, 3))
 
-    for nx in range(1, 4):  
-        for ny in range(1, 4):  
-            for nz in range(1, 4):
-                
-                make_pw_input_from_existing_in(input_file_path=template_path,
-                    a=CELLDM1_Angstroms,
-                    covera=CELLDM3,
-                    cellsize=(nx, ny, nz) )
-    
-    

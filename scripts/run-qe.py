@@ -13,7 +13,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler('qe_runner.log')
+        logging.FileHandler('run_qe.log')
     ]
 )
 logger = logging.getLogger(__name__)

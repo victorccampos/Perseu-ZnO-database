@@ -2,43 +2,7 @@ Aqui está o arquivo editado com as tabelas centralizadas:
 
 ### Tabela de Número de Átomos em Supercélulas de ZnO (Wurtzita)
 
-A estrutura wurtzita do ZnO possui 4 átomos por célula unitária (2 Zn e 2 O). Abaixo está a tabela com o número total de átomos para todas as combinações de supercélulas de $1 \times 1 \times 1$ até $3 \times 3 \times 3$, variando $n_x$, $n_y$ e $n_z$:
-
-<center>
-
-| $$n_x$$ | $$n_y$$ | $$n_z$$ | Nº de Átomos |
-|-------|-------|-------|--------------|
-| 1     | 1     | 1     | 4            |
-| 1     | 1     | 2     | 8            |
-| 1     | 1     | 3     | 12           |
-| 1     | 2     | 1     | 8            |
-| 1     | 2     | 2     | 16           |
-| 1     | 2     | 3     | 24           |
-| 1     | 3     | 1     | 12           |
-| 1     | 3     | 2     | 24           |
-| 1     | 3     | 3     | 36           |
-| 2     | 1     | 1     | 8            |
-| 2     | 1     | 2     | 16           |
-| 2     | 1     | 3     | 24           |
-| 2     | 2     | 1     | 16           |
-| 2     | 2     | 2     | 32           |
-| 2     | 2     | 3     | 48           |
-| 2     | 3     | 1     | 24           |
-| 2     | 3     | 2     | 48           |
-| 2     | 3     | 3     | 72           |
-| 3     | 1     | 1     | 12           |
-| 3     | 1     | 2     | 24           |
-| 3     | 1     | 3     | 36           |
-| 3     | 2     | 1     | 24           |
-| 3     | 2     | 2     | 48           |
-| 3     | 2     | 3     | 72           |
-| 3     | 3     | 1     | 36           |
-| 3     | 3     | 2     | 72           |
-| 3     | 3     | 3     | 108          |
-
-</center>
-
-Cada valor corresponde ao total de átomos (Zn + O) na supercélula para a respectiva combinação de $n_x$, $n_y$ e $n_z$.
+A estrutura wurtzita do ZnO possui 4 átomos por célula unitária (2 Zn e 2 O). Abaixo está a tabela com o número total de átomos para todas as combinações de supercélulas de $1 \times 1 \times 1$ até $3 \times 3 \times 3$, variando $n_x$, $n_y$ e $n_z$. Cada valor corresponde ao total de átomos (Zn + O) na supercélula para a respectiva combinação de $n_x$, $n_y$ e $n_z$.
 
 ## Configurações Adaptadas ao Seu Hardware AMD Opteron
 
@@ -124,3 +88,8 @@ Com 64 CPUs disponíveis, você pode executar **duas simulações simultâneas**
 Esta configuração otimizada aproveita as características específicas do seu hardware AMD Opteron, garantindo eficiência computacional para suas simulações de ZnO dopado.
 
 [1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/57775599/313f03f9-c106-47e4-913c-7e0a919d4a59/lscpu_perseu.txt
+
+
+
+---
+
