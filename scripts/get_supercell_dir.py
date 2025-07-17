@@ -71,8 +71,7 @@ def make_pw_input_from_existing_in(input_file_path: str, a: float, covera: float
 
     # Write the input file using ASE's espresso interface
     write_espresso_in(
-        #file = os.path.join(cell_dirname, input_name), # One folder per supercell
-        file = input_name, # If you want to write in the current directory
+        file = os.path.join(cell_dirname, input_name), # One folder per supercell
         atoms = supercell,
         input_data = HEADER_INPUT,
         pseudopotentials = PSEUDOS,
@@ -114,5 +113,5 @@ if  __name__ == "__main__":
             make_pw_input_from_existing_in(input_file_path=template_path,
                 a=a,
                 covera=covera,
-                cellsize=(1, 1, 3))
+                cellsize=(3, 1, 1))
 
