@@ -67,6 +67,12 @@ def run_qe_job(input_path: Path, output_path: Path, num_processes: int, npool: i
         pw_path (str): Path to the pw.x executable.
     """
     logger.info(f"Executing QE job: {input_path.name} (Output: {output_path})")
+    
+    # TODO: split cmd in two variable: mpi flags and pw.x flags
+    # Example: mpi_flags: str = -np {num_processes} --map-by numa:pe=2
+    # Example: pw_flags: str = -nk 4 -ntg 4 ...
+    # Final cmd would be cmd = [foo ,mpi_flags.split(" "), pw_flags.split(" ")]
+    # mpirun -np 4096 ./neb.x -ni 8 -nk 2 -nt 4 -nd 144 -i my.input
     cmd = [
         "mpirun", "-np", str(num_processes), "--map-by", "numa:pe=2",
         "pw.x", "-in", str(input_path), "-npool", str(npool)
@@ -88,16 +94,17 @@ def run_qe_job(input_path: Path, output_path: Path, num_processes: int, npool: i
         logger.error(f"Unexpected error for {input_path.name}: {e}")
 
 def main() -> None:
-    """
-    Main function to orchestrate the execution of Quantum ESPRESSO jobs.
+    """Main function to orchestrate the execution of Quantum ESPRESSO jobs.
 
     Sets up directories, collects input files, and processes them sequentially.
     """
     args = parse_arguments()
     
-    # Set OMP_NUM_THREADS environment variable
-    os.environ["OMP_NUM_THREADS"] = "2"
-    
+    # If hybrid parallelization is used (OpenMP + MPI)
+    os.environ['OMP_NUM_THREADS'] = '2'    # export OMP_NUM_THREADS=2 -- Número de threads por processo MPI - Mais Comum
+    #os.environ['OMP_PLACES'] = 'cores'     # export OMP_PLACES=cores Prende threads aos núcleos físicos
+    #os.environ['OMP_PROC_BIND'] = 'close'  # export OMP_PROC_BIND=close Mantém threads próximas (melhor para NUMA)
+
     # Setup directories
     base_dir = Path(__file__).parent
     input_dir = base_dir / args.directory
@@ -109,7 +116,7 @@ def main() -> None:
         logger.error(f"Failed to create output directory {output_dir}: {e}")
         sys.exit(1)
 
-    # Collect input files'
+    # Collect input files
     try:
         input_files = sorted(
             [file for file in input_dir.iterdir()
