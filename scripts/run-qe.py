@@ -3,7 +3,7 @@ import subprocess
 import argparse
 import sys
 import os
-
+from datetime import datetime
 
 def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments for the QE input runner."""
@@ -32,6 +32,8 @@ def parse_arguments() -> argparse.Namespace:
         default=2,
         help="Number of pools for FFT parallelization."
     )
+    parser.add_argument("--start-from", type=str, default=None,
+    help="Start from this .in file (inclusive), skipping all earlier alphabetically")
     return parser.parse_args()
 
 
@@ -42,19 +44,15 @@ def run_qe_job(input_path: Path, output_path: Path, num_processes: str, npools: 
         num_processes (int): Number of MPI processes to use.
         npools (int): Number of pools for FFT parallelization.
     """
-    
-    cmd_str = f"mpirun -np {num_processes} pw.x -npools {npools} -in {str(input_path)}"
-    cmd: list[str] = cmd_str.split()
 
+    command_line_text = f"mpirun -np {num_processes} pw.x -npools {npools} -in {str(input_path)}"
+    command_line: list[str] = command_line_text.split()
+    # input_path não deve conter espaços!
     try:
         with output_path.open(mode='w') as f_out:
-            subprocess.run(
-                cmd,
-                check=True,
-                stdout=f_out,
-                stderr=subprocess.STDOUT,
-            )
-        print(f"Successfully completed: {input_path.name}")
+            subprocess.run(command_line, check=True, stdout=f_out, stderr=subprocess.STDOUT)
+        # Log nohup.out
+        print(f"Job completed: {input_path.name} -- {datetime.now().strftime('%H:%M:%S')}")
 
     except subprocess.CalledProcessError as e:
         print(f"Failed to execute {input_path.name}: {e}")
@@ -68,7 +66,7 @@ def main():
     args = parse_arguments()
     
     # If hybrid parallelization is used (OpenMP + MPI)
-    os.environ['OMP_NUM_THREADS'] = '4'    
+    os.environ['OMP_NUM_THREADS'] = '2'
     
     # Setup directories
     base_dir = Path(__file__).parent
@@ -83,13 +81,16 @@ def main():
 
     
     try:
-        input_files = sorted(
-            [file for file in input_dir.iterdir()
-             if file.is_file() and file.name.endswith(".in")]
-        )
+        input_files = sorted([f for f in input_dir.iterdir() if f.is_file() 
+        and f.name.endswith(".in")])
+        
+        # Filter start file
+        if args.start_from:
+            input_files = [f for f in input_files if f.name >= args.start_from]
         if not input_files:
             print(f"No .in files found in {input_dir}")
             sys.exit(1)
+
     except Exception as e:
         print(f"Error accessing input directory {input_dir}: {e}")
         sys.exit(1)
@@ -99,7 +100,6 @@ def main():
         output_filename = input_path.stem + ".out"
         output_path = output_dir / output_filename
         run_qe_job(input_path, output_path, args.num_processes, args.npools)
-
     
 if __name__ == "__main__":
     main()
