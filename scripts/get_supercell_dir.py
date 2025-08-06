@@ -82,11 +82,11 @@ if  __name__ == "__main__":
 
     # Relaxed structure parameters for ZnO
     CELLDM1_Bohr_units = 6.178821408099141            
-    CELLDM1_angstroms = CELLDM1 * 0.52918  
+    CELLDM1_angstroms = CELLDM1_Bohr_units * 0.52918  
     CELLDM3 = 1.614358356153010 
 
     # Strained parameters - FUTURE
-    a_values = CELLDM1_Angstroms * (1 + percent_range)
+    a_values = CELLDM1_angstroms * (1 + percent_range)
     c_values = CELLDM3 * (1 + percent_range)
     
     # Path to the template input file - 1x1x1 atoms structure for ASE.
@@ -100,6 +100,6 @@ if  __name__ == "__main__":
                 template_path=template_path,
                 a=a,
                 covera=covera,
-                cellsize=(2, 2, 2)
+                cellsize=(3, 2, 2)
                 )
 
