@@ -49,6 +49,11 @@ __ZnO_database/__
    - Conversão para formatos aceitos por ænet
 
 5. **Treinamento do potencial**
+   $$\vec{x_i} = f_a^i \big(\mathbf{W}_i \vec{x}_{i-1} + \vec{b}_i \big) \\ \text{Node $i$ - ANN}$$ 
+   
+   - Número de layers
+   - Nodes per layer
+   - Função de ativação.
 
 
 ---
