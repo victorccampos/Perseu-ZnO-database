@@ -9,38 +9,53 @@ from ase.build import make_supercell
 from ase.io.espresso import write_espresso_in
 
 
-
-def make_pw_from_template(
+def make_scf_from_template(
     template_path: str,
     a: float,
     covera: float,
-    cellsize: Tuple[int, int, int]
+    supercell_size: Tuple[int, int, int],
+    add_noise: bool = False,
+    noise_stdev: float = 0.015
     ) -> None:
-    """Create a supercell input file for Quantum ESPRESSO based on an existing input file."""
-    
-    
-    primitive_cell = read(template_path, format='espresso-in') 
-    nx, ny, nz = cellsize
-    supercell_matrix = np.array([
-        [nx, 0, 0],
-        [0, ny, 0],
-        [0, 0, nz] 
-    ])
+    """Create a supercell input file for Quantum ESPRESSO based on an existing input file.
+
+    Args:
+        a : lattice paremeter in Angstrom
+        covera: ratio c/a
+        noise_stdev: noise level.
+
+        For more info about random displacement: https://ase-lib.org/_modules/ase/atoms.html#Atoms.rattle
+    """
+
+    primitive_cell = read(template_path, format='espresso-in')
+    nx, ny, nz = supercell_size
+    supercell_matrix = np.diag(supercell_size)
     supercell = make_supercell(prim=primitive_cell, P=supercell_matrix)
-    
-    
+
+    # Base names
     cell_dirname = f'cell{nx}{ny}{nz}.in'
+    input_name: str = f'ZnO-{a:.2f}-{covera:.2f}-{nx}{ny}{nz}.in'
+
+    # Random Displacements : rattle()
+    is_noisy: bool = add_noise and noise_stdev > 0
+    seed = np.random.randint(0, 1e9) 
+
+    if is_noisy:
+        cell_dirname = f'cell{nx}{ny}{nz}-{noise_stdev}.in'
+        input_name = f'ZnO-{a:.2f}-{covera:.2f}-{nx}{ny}{nz}-{noise_stdev}.in'
+        supercell.rattle(stdev=noise_stdev, seed=seed)
+
+
+    print(f'Produzindo input self-consistent-field == {input_name}')
     os.makedirs(cell_dirname, exist_ok=True)
 
-    # Input file name based on the parameters
-    input_name: str = f'ZnO-{a:.2f}-{covera:.2f}-{nx}{ny}{nz}.in'
-    
-    print(f'Produzindo : {input_name}')
-    
+
+    # Input SCF Quantum Espresso.
+    prefix_qe = input_name.replace(".in", "")
     HEADER_INPUT = {
     'control': {
         'calculation': 'scf',
-        'prefix': f'{input_name.replace(".in", "")}',
+        'prefix': prefix_qe,
         'pseudo_dir': '/home/jvc/QEspresso7.2/ZnO_database/pseudos',
         'outdir': './',
         'disk_io': 'none',
@@ -59,47 +74,41 @@ def make_pw_from_template(
     }
     }
     PSEUDOS = {'Zn': 'Zn.upf','O': 'O.upf'}
-    
-    # Adapt K-grid to larger supercells, mantaining grid density
-    KPOITNS_ORIGINAL = np.array([6, 6, 6])  
-    KPOINT_SUPERCELL = KPOITNS_ORIGINAL // np.array(cellsize)  
-    KPOINT_SUPERCELL[KPOINT_SUPERCELL == 0] = 1 
 
-    
+    # Adapt K-grid to larger supercells, mantaining grid density
+    KPOITNS_ORIGINAL = np.array([6, 6, 6])
+    KPOINT_SUPERCELL = KPOITNS_ORIGINAL // np.array(supercell_size)
+    KPOINT_SUPERCELL[KPOINT_SUPERCELL == 0] = 1
+
+
     write_espresso_in(
-        file = os.path.join(cell_dirname, input_name), 
+        file = os.path.join(cell_dirname, input_name),
         atoms = supercell,
         input_data = HEADER_INPUT,
         pseudopotentials = PSEUDOS,
         kpts = tuple(KPOINT_SUPERCELL),
         koffset = (0,0,0),
-        crystal_coordinates = True # TODO: check if this is needed
+        crystal_coordinates = True
     )
-
 
 if  __name__ == "__main__":
     percent_range = np.arange(start= -0.10, stop=0.12, step=0.02)
 
     # Relaxed structure parameters for ZnO
-    CELLDM1_Bohr_units = 6.178821408099141            
-    CELLDM1_angstroms = CELLDM1_Bohr_units * 0.52918  
-    CELLDM3 = 1.614358356153010 
+    CELLDM1_Bohr_units = 6.178_821_408_099_141
+    CELLDM1_angstroms = CELLDM1_Bohr_units * 0.52918
+    CELLDM3 = 1.614_358_356_153_010
 
-    # Strained parameters - FUTURE
-    a_values = CELLDM1_angstroms * (1 + percent_range)
-    c_values = CELLDM3 * (1 + percent_range)
-    
-    # Path to the template input file - 1x1x1 atoms structure for ASE.
-    template_path = 'ZnO_template.in'  
-   
-    
+
+    strained_a_values = CELLDM1_angstroms * (1 + percent_range)
+    strained_covera_values = CELLDM3 * (1 + percent_range)
+
+
+    template_path = 'ZnO_template.in'
+
+
     # ================ STRAIN =================== #
-    for a in a_values:
-        for covera in c_values:
-            make_pw_from_template(
-                template_path=template_path,
-                a=a,
-                covera=covera,
-                cellsize=(3, 2, 2)
-                )
+    for a in strained_a_values:
+        for covera in strained_covera_values:
+            make_scf_from_template(template_path, a, covera,(3, 2, 3))
 
