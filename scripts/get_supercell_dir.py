@@ -3,7 +3,7 @@ import os
 from typing import Tuple
 
 # Atomic Simulation Environment (ASE) imports
-from ase.io import read                         # read ZnO_template.in
+from ase.io import read                         
 from ase import Atoms
 from ase.build import make_supercell
 from ase.io.espresso import write_espresso_in
@@ -22,7 +22,7 @@ def make_scf_from_template(
     Args:
         a : lattice paremeter in Angstrom
         covera: ratio c/a
-        noise_stdev: noise level.
+        noise_stdev: Desloca os átomos com uma distribuição gaussiana cujo desvio padrão é de noise_stdev Å
 
         For more info about random displacement: https://ase-lib.org/_modules/ase/atoms.html#Atoms.rattle
     """
@@ -92,6 +92,8 @@ def make_scf_from_template(
     )
 
 if  __name__ == "__main__":
+    template_path = 'ZnO_template.in'
+    
     percent_range = np.arange(start= -0.10, stop=0.12, step=0.02)
 
     # Relaxed structure parameters for ZnO
@@ -102,13 +104,11 @@ if  __name__ == "__main__":
 
     strained_a_values = CELLDM1_angstroms * (1 + percent_range)
     strained_covera_values = CELLDM3 * (1 + percent_range)
-
-
-    template_path = 'ZnO_template.in'
-
-
+    
     # ================ STRAIN =================== #
+    noise_level = 0.05
+
     for a in strained_a_values:
         for covera in strained_covera_values:
-            make_scf_from_template(template_path, a, covera,(3, 2, 3))
+            make_scf_from_template(template_path, a, covera,(1, 1, 2), add_noise=True, noise_stdev=noise_level)
 
