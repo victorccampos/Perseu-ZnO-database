@@ -26,11 +26,31 @@ def make_scf_from_template(
 
         For more info about random displacement: https://ase-lib.org/_modules/ase/atoms.html#Atoms.rattle
     """
-
-    primitive_cell = read(template_path, format='espresso-in')
+    # Lê a estrutura do template para obter a base de átomos (1x1x1)
+    primitive_cell_template = read(template_path, format='espresso-in')
+    
+    ############################################################################
+    # CELL_PARAMETERS (v1,v2,v3)
+    c = a * covera
+    new_cell_vectors = [
+        [a, 0, 0],
+        [-a/2.0, a*(np.sqrt(3)/2.0), 0 ], 
+        [0, 0, c]
+    ]
+    
+    new_cell: Atoms = Atoms(
+        symbols = primitive_cell_template.get_chemical_symbols(),
+        scaled_positions = primitive_cell_template.get_scaled_positions(),
+        cell = new_cell_vectors,
+        pbc = True
+    )
+    ############################################################################
+    
     nx, ny, nz = supercell_size
     supercell_matrix = np.diag(supercell_size)
-    supercell = make_supercell(prim=primitive_cell, P=supercell_matrix)
+    
+    # Criando supercélula a partir da nova célula 
+    supercell = make_supercell(prim=new_cell, P=supercell_matrix)
 
     # Base names
     cell_dirname = f'cell{nx}{ny}{nz}.in'
@@ -41,14 +61,14 @@ def make_scf_from_template(
     seed = np.random.randint(0, 1e9) 
 
     if is_noisy:
-        cell_dirname = f'cell{nx}{ny}{nz}-{noise_stdev}.in'
+        cell_dirname = f'random_cell{nx}{ny}{nz}-{noise_stdev}.in'
         input_name = f'ZnO-{a:.2f}-{covera:.2f}-{nx}{ny}{nz}-{noise_stdev}.in'
         supercell.rattle(stdev=noise_stdev, seed=seed)
+    # TODO: Quando adicionar ruído, para estrutura fixa, colocar número da estrutura. 
+    # Ex: ZnO-{a:.2f}-{covera:.2f}-{nx}{ny}{nz}-{noise_stdev}-{i}.in
 
-
-    print(f'Produzindo input self-consistent-field == {input_name}')
+    print(f'Produzindo input self-consistent-field => {input_name}')
     os.makedirs(cell_dirname, exist_ok=True)
-
 
     # Input SCF Quantum Espresso.
     prefix_qe = input_name.replace(".in", "")
@@ -74,19 +94,15 @@ def make_scf_from_template(
     }
     }
     PSEUDOS = {'Zn': 'Zn.upf','O': 'O.upf'}
-
-    # Adapt K-grid to larger supercells, mantaining grid density
-    KPOITNS_ORIGINAL = np.array([6, 6, 6])
-    KPOINT_SUPERCELL = KPOITNS_ORIGINAL // np.array(supercell_size)
-    KPOINT_SUPERCELL[KPOINT_SUPERCELL == 0] = 1
-
-
+    K_GRID = (6, 6, 6) 
+    
+    # Generate ZnO-{a}-{c/a}.in or ZnO-{a}-{c/a}-{noise_level}.in 
     write_espresso_in(
         file = os.path.join(cell_dirname, input_name),
         atoms = supercell,
         input_data = HEADER_INPUT,
         pseudopotentials = PSEUDOS,
-        kpts = tuple(KPOINT_SUPERCELL),
+        kpts = K_GRID,
         koffset = (0,0,0),
         crystal_coordinates = True
     )
@@ -94,21 +110,23 @@ def make_scf_from_template(
 if  __name__ == "__main__":
     template_path = 'ZnO_template.in'
     
-    percent_range = np.arange(start= -0.10, stop=0.12, step=0.02)
-
+    percent_range = np.arange(start= -0.10, stop=0.12, step=0.02) # [start,stop)
+    print(f"Valores de stain (%): {percent_range}")
     # Relaxed structure parameters for ZnO
-    CELLDM1_Bohr_units = 6.178_821_408_099_141
-    CELLDM1_angstroms = CELLDM1_Bohr_units * 0.52918
-    CELLDM3 = 1.614_358_356_153_010
-
-
-    strained_a_values = CELLDM1_angstroms * (1 + percent_range)
-    strained_covera_values = CELLDM3 * (1 + percent_range)
+    # lattice parameter a
+    celldm1_bohr = 6.178_821_408_099_141
+    celldm1_angstroms = celldm1_bohr * 0.52918
     
-    # ================ STRAIN =================== #
-    noise_level = 0.05
+    # ratio c/a
+    celldm3 = 1.614_358_356_153_010
 
+    strained_a_values = celldm1_angstroms * (1 + percent_range)
+    strained_covera_values = celldm3 * (1 + percent_range)
+    
+    # noise_level = 0.05
+    # ================ STRAIN LOOP =================== #
+    
     for a in strained_a_values:
         for covera in strained_covera_values:
-            make_scf_from_template(template_path, a, covera,(1, 1, 2), add_noise=True, noise_stdev=noise_level)
+            make_scf_from_template(template_path, a, covera, supercell_size=(3, 3, 1))
 
