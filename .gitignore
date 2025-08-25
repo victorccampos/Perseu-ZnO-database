@@ -6,4 +6,5 @@
 *.xml
 *.err
 *.log
+*.html
 nohup.out
