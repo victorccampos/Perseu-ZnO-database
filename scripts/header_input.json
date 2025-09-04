@@ -6,7 +6,7 @@
         "outdir": "./",
         "disk_io": "none",
         "verbosity": "high",
-        "tprnfor": "True"
+        "tprnfor": ".true."
     },
     "system": {
         "ibrav": 0,

@@ -78,6 +78,7 @@ def make_scf_from_template(a: float, covera: float, supercell_size: Tuple[int, i
     prefix_qe = input_name.replace(".in", "")
     HEADER_INPUT = read_header_json()
     HEADER_INPUT['control']['prefix'] = prefix_qe
+    HEADER_INPUT['control']['tprnfor'] = True
     # Cards
     PSEUDOS = {'Zn': 'Zn.upf','O': 'O.upf'}
     K_GRID = (6, 6, 6) 
@@ -112,7 +113,7 @@ if  __name__ == "__main__":
     
     for a in strained_a_values:
        for covera in strained_covera_values:
-           make_scf_from_template(a, covera, supercell_size=(3, 1, 3))
+           make_scf_from_template(a, covera, supercell_size=(3, 1, 2))
 
     # make_scf_from_template(
     #                 a=celldm1_angstroms,
