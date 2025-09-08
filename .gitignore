@@ -7,4 +7,5 @@
 *.err
 *.log
 *.html
+*.sh
 nohup.out
