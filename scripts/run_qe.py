@@ -3,7 +3,7 @@ import subprocess
 import argparse
 import sys
 import os
-from datetime import datetime
+from datetime import datetime, date
 
 def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments for the QE input runner."""
@@ -22,15 +22,15 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "-np",
         "--num-processes",
-        type=str,
-        default=16,
-        help="Number of MPI processes to use for each QE run."
+        type = str,
+        default = 16,
+        help = "Number of MPI processes to use for each QE run."
     )
     parser.add_argument("-nk",
         "--npools",
-        type=str,
-        default=2,
-        help="Number of pools for FFT parallelization."
+        type = str,
+        default = 2,
+        help = "Number of pools for FFT parallelization."
     )
     parser.add_argument("--start-from", type=str, default=None,
     help="Start from this .in file (inclusive), skipping all earlier alphabetically")
@@ -44,7 +44,7 @@ def run_qe_job(input_path: Path, output_path: Path, num_processes: str, npools: 
         num_processes (int): Number of MPI processes to use.
         npools (int): Number of pools for FFT parallelization.
     """
-
+    
     command_line_text = f"mpirun -np {num_processes} pw.x -npools {npools} -in {str(input_path)}"
     command_line: list[str] = command_line_text.split()
     # input_path não deve conter espaços!
@@ -52,7 +52,7 @@ def run_qe_job(input_path: Path, output_path: Path, num_processes: str, npools: 
         with output_path.open(mode='w') as f_out:
             subprocess.run(command_line, check=True, stdout=f_out, stderr=subprocess.STDOUT)
         # Log nohup.out
-        print(f"Job completed: {input_path.name} -- {datetime.now().strftime('%H:%M:%S')}")
+        print(f"Job completed: {input_path.name} -- {date.today()} -- {datetime.now().strftime('%H:%M:%S')}")
 
     except subprocess.CalledProcessError as e:
         print(f"Failed to execute {input_path.name}: {e}")
@@ -81,8 +81,10 @@ def main():
 
     
     try:
-        input_files = sorted([f for f in input_dir.iterdir() if f.is_file() 
-        and f.name.endswith(".in")])
+        input_files = sorted(
+            [f for f in input_dir.iterdir() if f.is_file() 
+        and f.name.endswith(".in")]
+        )
         
         # Filter start file
         if args.start_from:
@@ -100,6 +102,7 @@ def main():
         output_filename = input_path.stem + ".out"
         output_path = output_dir / output_filename
         run_qe_job(input_path, output_path, args.num_processes, args.npools)
-    
+        print(f"\nArquivos finalizados: ({n}/{len(input_files)})\n")
+
 if __name__ == "__main__":
     main()
